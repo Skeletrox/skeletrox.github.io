@@ -26,9 +26,7 @@ a {
   transition: all 0.2s; }
   a:focus, a:hover {
     color: #352882; }
-li {
-	list-style-type: none;
-}
+
 h1,
 h2,
 h3,
