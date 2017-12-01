@@ -58,6 +58,10 @@ p {
 	background-repeat: no-repeat;
 }
 
+.black {
+	background-color: black;
+	color: white;
+} 
 section {
   padding: 100px 0; }
 
