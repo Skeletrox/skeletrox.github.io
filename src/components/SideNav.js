@@ -54,7 +54,7 @@ class SideNav extends Component {
               <Icon name='world' color={window.location.pathname === '/socialmedia' ? 'teal' : ''}/>
               Social Media
             </Menu.Item>
-            <Menu.Item name='repo' href='https://github.com/Skeletrox/skeletrox-react-github-io' target='_blank'>
+            <Menu.Item name='repo' href='https://github.com/Skeletrox/skeletrox.github.io' target='_blank'>
               <Icon name='github' color='green'/>
               View Page Source
             </Menu.Item>
