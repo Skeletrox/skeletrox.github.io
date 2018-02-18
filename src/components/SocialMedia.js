@@ -29,6 +29,10 @@ class SocialMedia extends Component {
     }
   }
 
+  componentDidMount() {
+    document.title="Social Media";
+  }
+
   handleFromChange(e) {
     this.setState({from : e.target.value})
   }

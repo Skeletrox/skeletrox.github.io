@@ -18,6 +18,10 @@ class About extends Component {
     super(props);
   }
 
+  componentDidMount() {
+    document.title="About";
+  }
+
   render() {
     let something = `I dread this question not because I fear it, but because I wonder what angle I need to approach this from, and what this person wants from this answer. Does he want to know if I'm a team player? Does she want to know my tastes in music? Does the panel want my autobiography?`
     let somethingPt2 = `Since you've taken the trouble of opening my website, I'll explain everything.`

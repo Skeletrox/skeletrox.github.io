@@ -42,12 +42,12 @@ class Education extends Component {
   }
 
   componentDidMount() {
-
+    document.title="Education";
   }
 
   panes = [
-    {menuItem : 'Education and Experience', render : () => <Tab.Pane>{this.renderEducationDetails()}</Tab.Pane>},
-    {menuItem : 'Test Scores and Resources', render : () => <Tab.Pane style={{minHeight:'100%'}}>{this.renderTestScoreDetails()}</Tab.Pane>}
+    {menuItem : 'Education & Experience', render : () => <Tab.Pane>{this.renderEducationDetails()}</Tab.Pane>},
+    {menuItem : 'Others', render : () => <Tab.Pane style={{minHeight:'100%'}}>{this.renderTestScoreDetails()}</Tab.Pane>}
   ]
 
   renderTestScoreDetails() {

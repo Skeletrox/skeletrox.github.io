@@ -30,6 +30,10 @@ class Programming extends Component {
     super(props);
   }
 
+  componentDidMount() {
+    document.title="Programming";
+  }
+
   render() {
     let skillsTable = languages.map((lang, index) =>
       <Table.Row>

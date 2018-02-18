@@ -29,6 +29,10 @@ class Projects extends Component {
     super(props);
   }
 
+  componentDidMount() {
+    document.title="Projects";
+  }
+
   render() {
     let projectCards = projectArray.map((item, index) =>
       <Card

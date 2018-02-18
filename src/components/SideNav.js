@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Sidebar, Segment, Menu, Icon, Header } from 'semantic-ui-react'
+import { Sidebar, Segment, Menu, Icon, Header, Container, Responsive } from 'semantic-ui-react'
 
 let pageNames = {
   '/' : "Sriram's Website",
@@ -54,8 +54,8 @@ class SideNav extends Component {
               <Icon name='world' color={window.location.pathname === '/socialmedia' ? 'teal' : ''}/>
               Social Media
             </Menu.Item>
-            <Menu.Item name='repo' href='https://www.github.com'>
-              <Icon name='github' color='red'/>
+            <Menu.Item name='repo' href='https://github.com/Skeletrox/skeletrox-react-github-io' target='_blank'>
+              <Icon name='github' color='green'/>
               View Page Source
             </Menu.Item>
         </Sidebar>
@@ -68,9 +68,12 @@ class SideNav extends Component {
                 <Header as='h3' inverted>{pageNames[window.location.pathname]}</Header>
               </Menu.Item>
           </Menu>
-          <div style={{paddingTop : '5%', paddingBottom : '5%'}}>
+          <Responsive as={Container} style={{paddingTop : '5%', paddingBottom : '5%'}} minWidth={640}>
             {this.props.children}
-          </div>
+          </Responsive>
+          <Responsive as={Container} style={{paddingTop : '15%', paddingBottom : '5%'}} maxWidth={640}>
+            {this.props.children}
+          </Responsive>
         </Sidebar.Pusher>
       </Sidebar.Pushable>
     );

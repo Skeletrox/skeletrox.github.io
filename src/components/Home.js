@@ -7,6 +7,10 @@ class Home extends Component {
     super(props);
   }
 
+  componentDidMount() {
+    document.title="Home";
+  }
+
   render() {
     let name = "Sriram's Website"
     return (
