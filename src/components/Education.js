@@ -332,7 +332,7 @@ class Education extends Component {
                   <Header as={'h3'}>Oracle UI/UX Tester</Header>
                   <List bulleted>
                     <List.Item><p>{`March 2017`}</p></List.Item>
-                    <List.Item><p>{`Tested Oracle University's Online Learnng System`}</p></List.Item>
+                    <List.Item><p>{`Tested Oracle University's Online Learning System`}</p></List.Item>
                   </List>
                   <Header as={'h3'}>Intern, Pinut</Header>
                   <List bulleted>
