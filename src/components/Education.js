@@ -344,6 +344,11 @@ class Education extends Component {
                     <List.Item><p>{`Since January 2018`}</p></List.Item>
                     <List.Item><p>{`Worked on OpenRAP v2, built using NodeJS and ReactJS`}</p></List.Item>
                   </List>
+                  <Header as={'h3'}>Intern, AiKaan labs</Header>
+                  <List bulleted>
+                    <List.Item><p>{`Since March 2018`}</p></List.Item>
+                    <List.Item><p>{`Working on Packet Flow Analytics for anomaly detection`}</p></List.Item>
+                  </List>
                 </Segment>
                 <Divider></Divider>
                 <Segment raised>
