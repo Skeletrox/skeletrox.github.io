@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.82767ef0.css",
   "main.css.map": "static/css/main.82767ef0.css.map",
-  "main.js": "static/js/main.4e5b2f62.js",
-  "main.js.map": "static/js/main.4e5b2f62.js.map",
+  "main.js": "static/js/main.e4dc658d.js",
+  "main.js.map": "static/js/main.e4dc658d.js.map",
   "static/media/CV_Masters_common.pdf": "static/media/CV_Masters_common.eb996915.pdf",
   "static/media/ICAECC_-_2018_paper_70.pdf": "static/media/ICAECC_-_2018_paper_70.a0d0a3a3.pdf",
   "static/media/about.jpg": "static/media/about.df26fe6e.jpg",
@@ -34,6 +34,7 @@
   "static/media/music.jpg": "static/media/music.0b54c54a.jpg",
   "static/media/mysql.png": "static/media/mysql.07173b2b.png",
   "static/media/openrap.jpg": "static/media/openrap.cba547d9.jpg",
+  "static/media/openrap_acit.pdf": "static/media/openrap_acit.c0beddfe.pdf",
   "static/media/programming.jpg": "static/media/programming.caa19f16.jpg",
   "static/media/projects.jpg": "static/media/projects.9362525b.jpg",
   "static/media/school_image.jpg": "static/media/school_image.9ab57636.jpg",
