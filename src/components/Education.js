@@ -37,7 +37,7 @@ class Education extends Component {
   }
 
   navigateTo = (e, titleProps) => {
-    const target  = titleProps.target;
+    const target = titleProps.target;
      this.refs[target].scrollIntoView();
   }
 
@@ -125,6 +125,18 @@ class Education extends Component {
           </Card.Group>
         </Segment>
         <Segment raised>
+            <Header as={'h1'}>Publications</Header>
+        <Card.Group stackable>
+            <Card
+            href={require('../pdf/openrap_paper.pdf')}
+            target='_blank'
+            color = 'orange'
+            meta = 'PDF'
+            header = 'Paper Publication'
+            description = 'Paper on OpenRAP published in IJACSR'/>
+        </Card.Group>
+        </Segment>
+        <Segment raised>
           <Header as={'h1'}>Resources</Header>
           <Divider></Divider>
           <Card.Group stackable>
@@ -142,6 +154,14 @@ class Education extends Component {
                 meta = 'PDF'
                 header = 'ICAECC 2018 Paper Submission'
                 description = 'Paper Submitted for ICAECC 2018, REVA University'/>
+
+                <Card
+                  href={require('../pdf/openrap_acit.pdf')}
+                  target='_blank'
+                  color = 'green'
+                  meta = 'PDF'
+                  header = 'ACIT 2018 Conference Paper'
+                  description = 'Conference paper for ACIT 2018'/>
           </Card.Group>
         </Segment>
 
@@ -159,8 +179,6 @@ class Education extends Component {
             <Grid.Row>
               <Grid.Column>
                 <Card
-                  onClick = {this.navigateTo.bind(this)}
-                  target = {'hschool'}
                   image={require('../img/school_image.jpg')}
                   header='KV MG Railway Colony'
                   meta='High School'
@@ -168,8 +186,6 @@ class Education extends Component {
               </Grid.Column>
               <Grid.Column>
               <Card
-                onClick = {this.navigateTo.bind(this)}
-                target = {'ssschool'}
                 image={require('../img/high_school_image.jpg')}
                 header= {`St. Joseph's PU College`}
                 meta='Senior Secondary School'
@@ -177,12 +193,10 @@ class Education extends Component {
               </Grid.Column>
               <Grid.Column>
               <Card
-                onClick = {this.navigateTo.bind(this)}
-                target = {'ug'}
                 image={require('../img/ug_image.jpg')}
                 header='REVA University'
                 meta='Undergraduate'
-                description='Graduating 2018'/>
+                description='Graduated 2018'/>
               </Grid.Column>
             </Grid.Row>
           </Grid>
@@ -259,7 +273,7 @@ class Education extends Component {
                         <Header as={'h3'}>8.64</Header>
                       </Table.Cell>
                       <Table.Cell>
-                        <Header as={'h3'}>3.52</Header>
+                        <Header as={'h3'}>3.62</Header>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -270,7 +284,7 @@ class Education extends Component {
                         <Header as={'h3'}>8.46</Header>
                       </Table.Cell>
                       <Table.Cell>
-                        <Header as={'h3'}>3.62</Header>
+                        <Header as={'h3'}>3.52</Header>
                       </Table.Cell>
                     </Table.Row>
                     <Table.Row>
@@ -293,6 +307,28 @@ class Education extends Component {
                       </Table.Cell>
                       <Table.Cell>
                         <Header as={'h3'}>3.89</Header>
+                      </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell>
+                        <Label ribbon><Header as={'h3'}>8</Header></Label>
+                      </Table.Cell>
+                      <Table.Cell>
+                        <Header as={'h3'}>10.0</Header>
+                      </Table.Cell>
+                      <Table.Cell>
+                        <Header as={'h3'}>4.0</Header>
+                      </Table.Cell>
+                    </Table.Row>
+                    <Table.Row>
+                      <Table.Cell>
+                        <Label ribbon color='teal'><Header as={'h3'}>Cumulative</Header></Label>
+                      </Table.Cell>
+                      <Table.Cell>
+                        <Header as={'h2'}>9.03</Header>
+                      </Table.Cell>
+                      <Table.Cell>
+                        <Header as={'h2'}>3.76</Header>
                       </Table.Cell>
                     </Table.Row>
                   </Table.Body>
@@ -341,13 +377,18 @@ class Education extends Component {
                   </List>
                   <Header as={'h3'}>Development Intern, Pinut</Header>
                   <List bulleted>
-                    <List.Item><p>{`Since January 2018`}</p></List.Item>
+                    <List.Item><p>{`January 2018 - June 2018`}</p></List.Item>
                     <List.Item><p>{`Worked on OpenRAP v2, built using NodeJS and ReactJS`}</p></List.Item>
                   </List>
                   <Header as={'h3'}>Intern, AiKaan labs</Header>
                   <List bulleted>
-                    <List.Item><p>{`Since March 2018`}</p></List.Item>
-                    <List.Item><p>{`Working on Packet Flow Analytics for anomaly detection`}</p></List.Item>
+                    <List.Item><p>{`March 2018 - June 2018`}</p></List.Item>
+                    <List.Item><p>{`Worked on Packet Flow Analytics for anomaly detection`}</p></List.Item>
+                  </List>
+                  <Header as={'h3'}>Network Analytics Engineer, AiKaan labs</Header>
+                  <List bulleted>
+                    <List.Item><p>{`Since July 2018`}</p></List.Item>
+                    <List.Item><p>{`Extracting, analyzing and training models on network-based data from a variety of sources, including FreeRadius, InfluxDB and Packetflow`}</p></List.Item>
                   </List>
                 </Segment>
                 <Divider></Divider>
@@ -367,8 +408,26 @@ class Education extends Component {
                   </List>
                   <Header as={'h3'}>Vice Chairperson, REVA Association for Computing and Information Technology</Header>
                   <List bulleted>
+
                     <List.Item><p>{`August 2016 - May 2017`}</p></List.Item>
                     <List.Item><p>{`Helped organize the Interschool fest and coordinated the Coding Contest`}</p></List.Item>
+                  </List>
+                </Segment>
+                <Divider></Divider>
+                <Segment raised>
+                  <Header as={'h2'}>{`Hackathons`}</Header>
+                  <Divider></Divider>
+                  <Header as={'h3'}>{`AWS Deep Learning Hackathon, IIT Madras`}</Header>
+                  <List bulleted>
+                  <List.Item><p>{`Top 6`}</p></List.Item>
+                    <List.Item><p>{`January 2018`}</p></List.Item>
+                    <List.Item><p>{`Object detection using transfer learning`}</p></List.Item>
+                  </List>
+                  <Header as={'h3'}>{'Smart India Hackathon'}</Header>
+                  <List bulleted>
+                  <List.Item><p>{`7th Place`}</p></List.Item>
+                    <List.Item><p>{`March 2018`}</p></List.Item>
+                    <List.Item><p>{`Smart home analytics using statistical machine learning`}</p></List.Item>
                   </List>
                 </Segment>
         </Container>

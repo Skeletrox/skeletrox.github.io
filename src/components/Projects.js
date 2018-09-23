@@ -7,8 +7,12 @@ import cryptopass from '../img/cryptopass.jpg'
 import btpp from '../img/btpp.jpg'
 import bella from '../img/analytics.jpg'
 import bfinterpreter from '../img/bfinterpreter.jpg'
+import resqos from '../img/resqos.png'
+import appliances from '../img/appliances.png'
 
 let projectArray = [
+  ['ResQoS', 'Resource-centric QoS', 'QoS alloactor based on content accessed', 'https://github.com/Skeletrox/ResQoS', resqos],
+  ['Appliance Simulator', 'Simulator for Appliance use', 'Simulates usage of appliances across different rooms', 'https://github.com/Skeletrox/appliance-generator', appliances],
   ['OpenRAP', 'Offline CDN for Low-Power Devices', 'Open-Source framework for low-powered IoT servers useful in areas with minimal connectivity', 'https://github.com/projectOpenRAP/OpenRAP', openrap],
   ['VASSCrypt', 'Mini-Project on Cryptography', 'System independent Encrypted File Transfer System', 'https://github.com/Skeletrox/FileTransfer', vasscrypt],
   ['CryptoPass', 'Mini Project for Saviskara', 'Localized secure Password Storage System', 'https://github.com/Skeletrox/PassGenJava', cryptopass],

@@ -12,6 +12,7 @@ import nodejs from '../img/nodejs.png'
 import reactjs from '../img/reactjs.png'
 import django from '../img/django.png'
 import tensorflow from '../img/tensorflow.png'
+import influx from '../img/influx.svg'
 
 let languages = [
     ['C', 8, 7, 'teal', c],
@@ -20,7 +21,7 @@ let languages = [
     ['Python', 8, 9.5, 'yellow', python],
     ['JavaScript', 8, 5, 'grey', js],
     ['SQL', 7, 8, 'green', sql],
-    ['goLang', 6, 8, 'teal', golang]
+    ['goLang', 7, 8, 'teal', golang]
 ]
 
 let testedWaters = ['PHP', 'C#', 'Perl', 'Actionscript 2.0', 'NS']
@@ -123,6 +124,15 @@ class Programming extends Component {
                 </Segment>
                 <Header as={'h3'}>{`TensorFlow`}</Header>
                 <div>{`Python based neural network framework`}</div>
+              </Grid.Column>
+              </Grid.Row>
+              <Grid.Row>
+              <Grid.Column>
+                <Segment raised circular>
+                  <Image src={influx} circular size='large'/>
+                </Segment>
+                <Header as={'h3'}>{`TICK Stack`}</Header>
+                <div>{`Golang-based timeseries data ETL framework`}</div>
               </Grid.Column>
             </Grid.Row>
           </Grid>

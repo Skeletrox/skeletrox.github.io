@@ -109,25 +109,13 @@ class About extends Component {
                   <Divider></Divider>
                   <Grid.Row>
                     <Grid.Column width={12}>
-                    <Header as={'h3'}>{`Ethical Hacker`}</Header>
-                    <p>
-                      {`You can call yourself one if you can kick your friends out of their Mini Militia hotspot because they're being annoying. Or because you're just trying to be evil.`}
-                    </p>
-                    </Grid.Column>
-                    <Grid.Column width={4}>
-                      <Segment raised><Image src={require('../img/hacking.jpg')} /></Segment>
-                    </Grid.Column>
-                  </Grid.Row>
-                  <Divider></Divider>
-                  <Grid.Row>
-                    <Grid.Column width={4}>
-                      <Segment raised><Image src={require('../img/music.jpg')} /></Segment>
-                    </Grid.Column>
-                    <Grid.Column width={12}>
                     <Header as={'h3'}>{`Musician`}</Header>
                     <p>
                       {`When your entire family is arguing over whether it is Karaharapriya or Shanmukhapriya and you're wondering whether to use Poizone or Harmor`}
                     </p>
+                    </Grid.Column>
+                    <Grid.Column width={4}>
+                      <Segment raised><Image src={require('../img/music.jpg')} /></Segment>
                     </Grid.Column>
                   </Grid.Row>
                   <Divider></Divider>
