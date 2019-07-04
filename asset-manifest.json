@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.82767ef0.css",
   "main.css.map": "static/css/main.82767ef0.css.map",
-  "main.js": "static/js/main.b439d419.js",
-  "main.js.map": "static/js/main.b439d419.js.map",
+  "main.js": "static/js/main.df59125e.js",
+  "main.js.map": "static/js/main.df59125e.js.map",
   "static/media/CV_Masters_common.pdf": "static/media/CV_Masters_common.43025066.pdf",
   "static/media/ICAECC_-_2018_paper_70.pdf": "static/media/ICAECC_-_2018_paper_70.a0d0a3a3.pdf",
   "static/media/about.jpg": "static/media/about.df26fe6e.jpg",
@@ -44,6 +44,7 @@
   "static/media/socialmedia.jpg": "static/media/socialmedia.3b59b8fe.jpg",
   "static/media/steam.jpg": "static/media/steam.a41a8197.jpg",
   "static/media/tensorflow.png": "static/media/tensorflow.a8be12cf.png",
+  "static/media/twitter.png": "static/media/twitter.f29106f6.png",
   "static/media/ug_image.jpg": "static/media/ug_image.9c67950a.jpg",
   "static/media/vasscrypt.jpg": "static/media/vasscrypt.00fb8dfd.jpg"
 }
