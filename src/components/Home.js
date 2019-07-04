@@ -1,14 +1,22 @@
 import React, { Component } from 'react'
-import { Grid, Header, Divider, Segment , Card, Container } from 'semantic-ui-react'
+import { Grid, Header, Divider, Segment , Card, Container, Statistic } from 'semantic-ui-react'
 import SideNav from './SideNav'
+import { getVisitorCount } from '../actions/actions'
 
 class Home extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      visitorCount : 0
+    }
   }
 
   componentDidMount() {
     document.title="Home";
+    getVisitorCount(res => {
+      this.setState({visitorCount: res})
+    })
+
   }
 
   render() {
@@ -64,6 +72,25 @@ class Home extends Component {
                     meta = 'Social Media'
                     description = 'Links to my various social media profiles' />
             </Card.Group>
+          </Segment>
+          <Segment>
+            <Header as='h2'> You are visitor number: </Header>
+              <Card.Group
+                centered
+              >
+                <Card
+                  color="olive"
+                >
+                  <Statistic>
+                    <Statistic.Value>
+                      {this.state.visitorCount}
+                    </Statistic.Value>
+                    <Divider> 
+                    </Divider>
+                    <Statistic.Label>Built using my first ever Heroku app</Statistic.Label>
+                  </Statistic>
+                </Card>
+              </Card.Group>
           </Segment>
           </Container>
       </SideNav>

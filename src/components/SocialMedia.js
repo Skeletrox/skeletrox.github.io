@@ -8,6 +8,7 @@ import medium from '../img/medium.svg'
 import linkedin from '../img/linkedin.png'
 import steam from '../img/steam.jpg'
 import github from '../img/github.jpg'
+import twitter from '../img/twitter.png'
 
 let sms = [
   ["Facebook", "https://www.facebook.com/Chaosbane", facebook],
@@ -16,6 +17,9 @@ let sms = [
   ["LinkedIn", "https://www.linkedin.com/in/sriram-ramaswamy-5584a3137/", linkedin],
   ["Steam", "http://steamcommunity.com/id/skeletrox/home", steam],
   ["Soundcloud", "https://soundcloud.com/sriram-ramaswamy", soundcloud],
+
+  // <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  ["Twitter", "https://twitter.com/SkeletroxVR", twitter]
 ]
 class SocialMedia extends Component {
   constructor(props) {

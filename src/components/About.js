@@ -35,7 +35,10 @@ class About extends Component {
             <p>
               <List bulleted>
                 <List.Item>
-                  Eight Semester CSE Student at REVA University, Bangalore.
+                  Graduate Student pursuing Master of Science in Computer Science at the USC Viterbi School of Engineering
+                </List.Item>
+                <List.Item>
+                  Computer Science and Engineering Graduate
                 </List.Item>
                 <List.Item>
                   Mr. Fresher 2014, Mr. RACIT 2015
@@ -54,7 +57,7 @@ class About extends Component {
             <Segment stacked>
               <Header as='h2'>Who am I?</Header>
               <p>
-                {`Eighth semester CSE Student. Writes code like calligraphy. Creatively inspired by video game soundtracks. Builds whatever catches his liking.`}
+                { `Grad Student. Writes code like calligraphy. Creatively inspired by video game soundtracks. Builds whatever catches his liking.`}
               </p>
               <Divider horizontal>{`Coding Prowess Aside:`}</Divider>
               <p>
@@ -63,7 +66,7 @@ class About extends Component {
                     <Grid.Column width={12}>
                       <Header as={'h3'}>{`Civilization V Fanatic`}</Header>
                       <p>
-                        {`I'm yet to play a game where my ideology is Freedom and the rest don't look to impose an embargo on me.`}
+                        {`Unless absolutely necessary, I prefer Freedom over Order and Autocracy.`}
                       </p>
                     </Grid.Column>
                     <Grid.Column width={4}>
@@ -78,7 +81,7 @@ class About extends Component {
                     <Grid.Column width={12}>
                     <Header as={'h3'}>{`Minecraft Civil Engineer`}</Header>
                     <p>
-                      {`Nothing is more relaxing than building whatever your mind dreams of. Or riding your horse across the plain and slaying zombies while listening to Urtiin Duu [The Mongol War Theme]. Sometimes, I build contraptions and traps or maybe just some logic gates. While listening to music. Obviously.`}
+                      {`Ever heard of builder's block?`}
                     </p>
                     </Grid.Column>
                   </Grid.Row>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Sidebar, Segment, Menu, Icon, Header, Container, Responsive } from 'semantic-ui-react'
+import { Sidebar, Menu, Icon, Header, Container, Responsive } from 'semantic-ui-react'
 
 let pageNames = {
   '/' : "Sriram's Website",

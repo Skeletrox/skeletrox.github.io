@@ -17,11 +17,11 @@ import influx from '../img/influx.svg'
 let languages = [
     ['C', 8, 7, 'teal', c],
     ['C++', 7, 8, 'blue', cpp],
-    ['Java', 9, 9, 'orange', java],
-    ['Python', 8, 9.5, 'yellow', python],
+    ['Java', 8, 9, 'orange', java],
+    ['Python', 9, 9.5, 'yellow', python],
     ['JavaScript', 8, 5, 'grey', js],
     ['SQL', 7, 8, 'green', sql],
-    ['goLang', 7, 8, 'teal', golang]
+    ['goLang', 8, 9, 'teal', golang],
 ]
 
 let testedWaters = ['PHP', 'C#', 'Perl', 'Actionscript 2.0', 'NS']
