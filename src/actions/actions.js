@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export function getVisitorCount(cb) {
     axios.get(
-        "http://skel-git-back.herokuapp.com/visitorcount/ping"
+        "https://skel-git-back.herokuapp.com/visitorcount/ping"
     ).then(response => {
         let res = response.data
         cb(res.num);

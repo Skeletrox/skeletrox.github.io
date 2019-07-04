@@ -35,7 +35,7 @@ class About extends Component {
             <p>
               <List bulleted>
                 <List.Item>
-                  Graduate Student pursuing Master of Science in Computer Science at the USC Viterbi School of Engineering
+                  Incoming Graduate Student pursuing Master of Science in Computer Science at the USC Viterbi School of Engineering
                 </List.Item>
                 <List.Item>
                   Computer Science and Engineering Graduate
