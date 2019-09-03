@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import { Grid, Container, Header, Divider, Icon, Button, Segment, Card, Input, TextArea, Form, Label, Popup } from 'semantic-ui-react'
+import { Container, Header, Divider, Icon, Button, Segment, Card, Input, TextArea, Form, Label} from 'semantic-ui-react'
 import SideNav from './SideNav'
 import facebook from '../img/facebook.png'
 import soundcloud from '../img/soundcloud.png'
@@ -14,7 +13,7 @@ let sms = [
   ["Facebook", "https://www.facebook.com/Chaosbane", facebook],
   ["GitHub", "https://www.github.com/Skeletrox", github],
   ["Medium", "https://medium.com/@skeletrox", medium],
-  ["LinkedIn", "https://www.linkedin.com/in/sriram-ramaswamy-5584a3137/", linkedin],
+  ["LinkedIn", "https://www.linkedin.com/in/sriram-venkatachalam-ramaswamy-5584a3137/", linkedin],
   ["Steam", "http://steamcommunity.com/id/skeletrox/home", steam],
   ["Soundcloud", "https://soundcloud.com/sriram-ramaswamy", soundcloud],
 
@@ -69,7 +68,7 @@ class SocialMedia extends Component {
   }
 
   render() {
-    let smCards = sms.map((site, index) =>
+    let smCards = sms.map((site, _) =>
       <Card
         href={site[1]}
         target='_blank'
