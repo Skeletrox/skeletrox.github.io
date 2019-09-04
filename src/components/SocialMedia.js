@@ -13,7 +13,7 @@ let sms = [
   ["Facebook", "https://www.facebook.com/Chaosbane", facebook],
   ["GitHub", "https://www.github.com/Skeletrox", github],
   ["Medium", "https://medium.com/@skeletrox", medium],
-  ["LinkedIn", "https://www.linkedin.com/in/sriram-venkatachalam-ramaswamy-5584a3137/", linkedin],
+  ["LinkedIn", "https://www.linkedin.com/in/sriramvera/", linkedin],
   ["Steam", "http://steamcommunity.com/id/skeletrox/home", steam],
   ["Soundcloud", "https://soundcloud.com/sriram-ramaswamy", soundcloud],
 
