@@ -175,31 +175,53 @@ class Education extends Component {
         <Container>
           <Header as={'h1'}>Education</Header>
           <Divider></Divider>
-          <Grid stackable columns={3}>
+          <Grid stackable columns={4}>
             <Grid.Row>
               <Grid.Column>
                 <Card
                   image={require('../img/school_image.jpg')}
-                  header='KV MG Railway Colony'
+                  header={<Header as={'h5'}>KV MG Railway Colony</Header>}
                   meta='High School'
                   description='Graduated 2012'/>
               </Grid.Column>
               <Grid.Column>
               <Card
                 image={require('../img/high_school_image.jpg')}
-                header= {`St. Joseph's PU College`}
+                header= {<Header as={'h5'}>St. Joseph's PU College</Header>}
                 meta='Senior Secondary School'
                 description='Graduated 2014'/>
               </Grid.Column>
               <Grid.Column>
               <Card
                 image={require('../img/ug_image.jpg')}
-                header='REVA University'
+                header={<Header as={'h5'}>REVA University</Header>}
                 meta='Undergraduate'
                 description='Graduated 2018'/>
               </Grid.Column>
+              <Grid.Column>
+                <Card
+                  image={require('../img/gs_image.png')}
+                  header={<Header as={'h5'}>University of Southern California</Header>}
+                  meta='Grad School'
+                  description='Graduating 2021'/>
+              </Grid.Column>
             </Grid.Row>
           </Grid>
+          <Divider></Divider>
+          <div ref='gs'>
+              <Header as={'h2'}>Graduate School</Header>
+              <List bulleted>
+                <List.Item>
+                  {`University of Southern California, Los Angeles`}
+                </List.Item>
+                <List.Item>
+                  {'2019-2021'}
+                </List.Item>
+                <List.Item>
+                  {'Degree : Master of Science in Computer Science'}
+                </List.Item>
+              </List>
+          </div>
           <Divider></Divider>
           <div ref='ug'>
           <Header as={'h2'}>Undergraduate</Header>
@@ -387,8 +409,8 @@ class Education extends Component {
                   </List>
                   <Header as={'h3'}>Network Analytics Engineer, AiKaan labs</Header>
                   <List bulleted>
-                    <List.Item><p>{`Since July 2018`}</p></List.Item>
-                    <List.Item><p>{`Extracting, analyzing and training models on network-based data from a variety of sources, including FreeRadius, InfluxDB and Packetflow`}</p></List.Item>
+                    <List.Item><p>{`July 2018 - June 2019`}</p></List.Item>
+                    <List.Item><p>{`Extracting, analyzing and training models built using TensorFlow on network-based data from a variety of sources, including FreeRadius, InfluxDB and Packetflow`}</p></List.Item>
                   </List>
                 </Segment>
                 <Divider></Divider>

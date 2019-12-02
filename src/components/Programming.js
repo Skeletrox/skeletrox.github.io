@@ -16,8 +16,8 @@ import influx from '../img/influx.svg'
 
 let languages = [
     ['C', 8, 7, 'teal', c],
-    ['C++', 7, 8, 'blue', cpp],
-    ['Java', 8, 9, 'orange', java],
+    ['C++', 8, 9, 'blue', cpp],
+    ['Java', 8, 7, 'orange', java],
     ['Python', 9, 9.5, 'yellow', python],
     ['JavaScript', 8, 5, 'grey', js],
     ['SQL', 7, 8, 'green', sql],

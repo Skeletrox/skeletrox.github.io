@@ -35,7 +35,7 @@ class About extends Component {
             <p>
               <List bulleted>
                 <List.Item>
-                  Incoming Graduate Student pursuing Master of Science in Computer Science at the USC Viterbi School of Engineering
+                  Graduate Student pursuing Master of Science in Computer Science at the USC Viterbi School of Engineering
                 </List.Item>
                 <List.Item>
                   Computer Science and Engineering Graduate
@@ -64,9 +64,9 @@ class About extends Component {
                 <Grid stackable divided columns={2} verticalAlign='middle'>
                   <Grid.Row>
                     <Grid.Column width={12}>
-                      <Header as={'h3'}>{`Civilization V Fanatic`}</Header>
+                      <Header as={'h3'}>{`Civilization VI Fanatic`}</Header>
                       <p>
-                        {`Unless absolutely necessary, I prefer Freedom over Order and Autocracy.`}
+                        {`I won't invade you. I'll foment unrest in your border cities and capture them when they become Free Cities. Please safeguard your great works too!`}
                       </p>
                     </Grid.Column>
                     <Grid.Column width={4}>
