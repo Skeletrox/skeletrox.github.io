@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Header, Divider, Icon, Button, Segment, Card, Input, TextArea, Form, Label} from 'semantic-ui-react'
+import { Container, Header, Divider, Image, Icon, Button, Segment, Card, Input, TextArea, Form, Label, Modal} from 'semantic-ui-react'
 import SideNav from './SideNav'
 import facebook from '../img/facebook.png'
 import soundcloud from '../img/soundcloud.png'
@@ -8,6 +8,7 @@ import linkedin from '../img/linkedin.png'
 import steam from '../img/steam.jpg'
 import github from '../img/github.jpg'
 import twitter from '../img/twitter.png'
+import snapchat from '../img/snapchat.jpg'
 
 let sms = [
   ["Facebook", "https://www.facebook.com/Chaosbane", facebook],
@@ -85,6 +86,22 @@ class SocialMedia extends Component {
           <Card.Group itemsPerRow={sms.length} stackable>
               {smCards}
           </Card.Group>
+          <Divider></Divider>
+          <Segment align='center'>
+          <Modal trigger={
+          <Button as='div' labelPosition='right'>
+            <Button color='black'>
+              <Icon name='snapchat ghost'/>
+            </Button>
+            <Label as='a' basic color='black' pointing='left'>
+              Get Snapcode
+            </Label>
+          </Button>} basic size='small' closeicon>
+            <Image
+              src={snapchat} />
+          </Modal>
+          </Segment>
+          <Divider></Divider>
           <Header as={'h1'}>
             Contact Me!
           </Header>

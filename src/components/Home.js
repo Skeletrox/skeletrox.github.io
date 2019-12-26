@@ -46,7 +46,7 @@ class Home extends Component {
                     color = 'blue'
                     header = 'Where did I study?'
                     meta = 'Educational Details'
-                    description = 'High School, Undergrad and Certifications'/>
+                    description = 'High School, Tertiary Education and Certifications'/>
 
                   <Card
                     href = '/programming'
