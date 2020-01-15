@@ -9,6 +9,8 @@ import bella from '../img/analytics.jpg'
 import bfinterpreter from '../img/bfinterpreter.jpg'
 import resqos from '../img/resqos.png'
 import appliances from '../img/appliances.png'
+import hussar from '../img/hussar.png'
+import geforce from '../img/nvidia-geforce-gtx-logo.png'
 
 let projectArray = [
   ['ResQoS', 'Resource-centric QoS', 'QoS alloactor based on content accessed', 'https://github.com/Skeletrox/ResQoS', resqos],
@@ -18,7 +20,9 @@ let projectArray = [
   ['CryptoPass', 'Mini Project for Saviskara', 'Localized secure Password Storage System', 'https://github.com/Skeletrox/PassGenJava', cryptopass],
   ['BrainFuck Interpreter', 'Finals Week "Project"', 'BrainFuck interpreter built in Python.', 'https://github.com/Skeletrox/BrainfuckInterpreter', bfinterpreter],
   ['Bass and Treble: Peaks and Plains', 'High School Project', 'Thinkquest International Competition 2011 Entry', 'https://btpp.github.io', btpp],
-  ['Bella-Middleware', 'Analytics engine for Bella, a smart home assistant', 'Smart India Hackathon 2018 Entry', 'https://github.com/NullPointersInc/Bella-Middleware', bella]
+  ['Bella-Middleware', 'Analytics engine for Bella, a smart home assistant', 'Smart India Hackathon 2018 Entry', 'https://github.com/NullPointersInc/Bella-Middleware', bella],
+  ['Halma Hussar', 'Grad School Assignment','C++ based agent that plays Halma (a variation of checkers) featuring a custom scoring function',  'https://github.com/Skeletrox/halma-hussar', hussar],
+    ['SMI Reporter', 'Side Project', 'Polls the NVIDIA-SMI tool in order to get GPU usage stats and alerts the user through a bot', 'https://github.com/Skeletrox/smi_reporter', geforce]
 ]
 
 
