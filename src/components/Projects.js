@@ -11,18 +11,20 @@ import resqos from '../img/resqos.png'
 import appliances from '../img/appliances.png'
 import hussar from '../img/hussar.png'
 import geforce from '../img/nvidia-geforce-gtx-logo.png'
+import blackjack from '../img/blackjack.png'
 
 let projectArray = [
+  ['Blackjack Bot', 'Explorations into Reinforcement Learning', 'Adversarial AI that uses Q-Learning to effectively strategize Blackjack', 'https://github.com/Skeletrox/blackjackbot', blackjack],
+  ['SMI Reporter', 'Side Project', 'Polls the NVIDIA-SMI tool in order to get GPU usage stats and alerts the user through a bot', 'https://github.com/Skeletrox/smi_reporter', geforce],
+  ['Halma Hussar', 'Grad School Assignment','C++ based agent that plays Halma (a variation of checkers) featuring a custom scoring function',  'https://github.com/Skeletrox/halma-hussar', hussar],
   ['ResQoS', 'Resource-centric QoS', 'QoS alloactor based on content accessed', 'https://github.com/Skeletrox/ResQoS', resqos],
   ['Appliance Simulator', 'Simulator for Appliance use', 'Simulates usage of appliances across different rooms', 'https://github.com/Skeletrox/appliance-generator', appliances],
   ['OpenRAP', 'Offline CDN for Low-Power Devices', 'Open-Source framework for low-powered IoT servers useful in areas with minimal connectivity', 'https://github.com/projectOpenRAP/OpenRAP', openrap],
+  ['Bella-Middleware', 'Analytics engine for Bella, a smart home assistant', 'Smart India Hackathon 2018 Entry', 'https://github.com/NullPointersInc/Bella-Middleware', bella],
   ['VASSCrypt', 'Mini-Project on Cryptography', 'System independent Encrypted File Transfer System', 'https://github.com/Skeletrox/FileTransfer', vasscrypt],
   ['CryptoPass', 'Mini Project for Saviskara', 'Localized secure Password Storage System', 'https://github.com/Skeletrox/PassGenJava', cryptopass],
   ['BrainFuck Interpreter', 'Finals Week "Project"', 'BrainFuck interpreter built in Python.', 'https://github.com/Skeletrox/BrainfuckInterpreter', bfinterpreter],
   ['Bass and Treble: Peaks and Plains', 'High School Project', 'Thinkquest International Competition 2011 Entry', 'https://btpp.github.io', btpp],
-  ['Bella-Middleware', 'Analytics engine for Bella, a smart home assistant', 'Smart India Hackathon 2018 Entry', 'https://github.com/NullPointersInc/Bella-Middleware', bella],
-  ['Halma Hussar', 'Grad School Assignment','C++ based agent that plays Halma (a variation of checkers) featuring a custom scoring function',  'https://github.com/Skeletrox/halma-hussar', hussar],
-    ['SMI Reporter', 'Side Project', 'Polls the NVIDIA-SMI tool in order to get GPU usage stats and alerts the user through a bot', 'https://github.com/Skeletrox/smi_reporter', geforce]
 ]
 
 
