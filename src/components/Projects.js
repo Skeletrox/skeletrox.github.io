@@ -32,8 +32,8 @@ let subProjectArray = [
   ['Matrix Inverter', 'Engineering Mathematics', 'Calculates the inverse of a nxn matrix', 'https://github.com/Skeletrox/college-stuff/blob/master/MatrixInv.c'],
   ['Task Scheduler','Software Engineering and Testing','Calculates the different task parameters for a software project', 'https://github.com/Skeletrox/college-stuff/blob/master/Task.java'],
   ['Net Present Value generator','Software Ethics and Project Management','Calculates the NPV of an investment after deprecation','https://github.com/Skeletrox/college-stuff/blob/master/npv.cc'],
-  ['Hand Cricket','First Game','Command-Line Hand Cricket where the computer plays with you','https://github.com/Skeletrox/self-expansion/blob/master/handcricket.java']
-]
+  ['Hand Cricket','First Game','Command-Line Hand Cricket where the computer plays with you','https://github.com/Skeletrox/self-expansion/blob/master/handcricket.java'],
+    ['Slots Machine', 'Reinforcement Learning','Simulates slot machine(s) and gets the best possible reward through Reinforcement Learning', 'https://gist.github.com/Skeletrox/fd812a33ad1300e3f1fb42ee086e8486']]
 class Projects extends Component {
   constructor(props) {
     super(props);
