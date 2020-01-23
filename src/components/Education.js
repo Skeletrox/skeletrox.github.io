@@ -143,8 +143,8 @@ class Education extends Component {
               <Card
                 href={require('../pdf/CV_Masters_common.pdf')}
                 target='_blank'
-                header =  'Graduate School CV'
-                description = 'CV for Graduate Studies'
+                header =  'CV'
+                description = 'Curriculum Vitae'
                 meta = 'PDF'
                 color = 'blue'/>
               <Card
