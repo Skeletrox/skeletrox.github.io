@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Sidebar, Menu, Icon, Header, Container, Responsive } from 'semantic-ui-react'
+import {Sidebar, Menu, Icon, Header, Container, Responsive, Divider} from 'semantic-ui-react'
 
 let pageNames = {
-  '/' : "Sriram's Website",
+  '/' : "Home",
   '/about' : 'About',
   '/education' : 'Education',
   '/projects' : 'Projects',
@@ -26,46 +26,50 @@ class SideNav extends Component {
   }
 
   render() {
-    let name = "Sriram's Website";
+    let activeColor = 'violet';
+    let passiveColor = 'blue';
     return (
       <Sidebar.Pushable style={{ height : '100%' }}>
-        <Sidebar as={Menu} animation='push' width='thin' visible={this.state.visible} icon='labeled' vertical inverted style={{ height : '100%' }}>
+        <Sidebar as={Menu} animation='push' width='thin' visible={this.state.visible} icon='labeled' vertical style={{ height : '100%' }}>
             <Menu.Item name='home' as={Link} to={'/'}>
-              <Icon name='home'  color={window.location.pathname === '/' ? 'teal' : ''}/>
+              <Icon name='home' color={window.location.pathname === '/' ? activeColor : passiveColor}/>
               Home
             </Menu.Item>
             <Menu.Item name='about' as={Link} to={'/about'}>
-              <Icon name='user' color={window.location.pathname === '/about' ? 'teal' : ''} />
+              <Icon name='user' color={window.location.pathname === '/about' ? activeColor : passiveColor} />
               About
             </Menu.Item>
             <Menu.Item name='education' as={Link} to={'/education'}>
-              <Icon name='student' color={window.location.pathname === '/education' ? 'teal' : ''}/>
+              <Icon name='student' color={window.location.pathname === '/education' ? activeColor : passiveColor}/>
               Education
             </Menu.Item>
             <Menu.Item name='projects' as={Link} to={'/projects'}>
-              <Icon name='code' color={window.location.pathname === '/projects' ? 'teal' : ''}/>
+              <Icon name='code' color={window.location.pathname === '/projects' ? activeColor : passiveColor}/>
               Projects
             </Menu.Item>
             <Menu.Item name='programming' as={Link} to={'/programming'}>
-              <Icon name='terminal' color={window.location.pathname === '/programming' ? 'teal' : ''}/>
+              <Icon name='terminal' color={window.location.pathname === '/programming' ? activeColor : passiveColor}/>
               Programming Skills
             </Menu.Item>
             <Menu.Item name='socialmedia' as={Link} to={'/socialmedia'}>
-              <Icon name='world' color={window.location.pathname === '/socialmedia' ? 'teal' : ''}/>
+              <Icon name='world' color={window.location.pathname === '/socialmedia' ? activeColor : passiveColor}/>
               Social Media
             </Menu.Item>
+            <Divider></Divider>
+            <Divider></Divider>
+            <Divider></Divider>
             <Menu.Item name='repo' href='https://github.com/Skeletrox/skeletrox.github.io' target='_blank'>
               <Icon name='github' color='green'/>
               View Page Source
             </Menu.Item>
         </Sidebar>
         <Sidebar.Pusher style={{ height : '100%' }}>
-          <Menu fixed='top' inverted>
+          <Menu fixed='top' color={'black'} tabular>
               <Menu.Item name='bars' onClick={this.toggleSideBarVisibility.bind(this)}>
                   <Icon name='bars' />
               </Menu.Item>
               <Menu.Item name='heading'>
-                <Header as='h3' inverted>{pageNames[window.location.pathname]}</Header>
+                <Header as='h3' >{pageNames[window.location.pathname]}</Header>
               </Menu.Item>
           </Menu>
           <Responsive as={Container} style={{paddingTop : '5%', paddingBottom : '5%'}} minWidth={640}>

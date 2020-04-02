@@ -13,6 +13,7 @@ import reactjs from '../img/reactjs.png'
 import django from '../img/django.png'
 import tensorflow from '../img/tensorflow.png'
 import influx from '../img/influx.svg'
+import pytorch from '../img/pytorch-logo.png'
 
 let languages = [
     ['C', 8, 7, 'teal', c],
@@ -127,13 +128,20 @@ class Programming extends Component {
               </Grid.Column>
               </Grid.Row>
               <Grid.Row>
-              <Grid.Column>
-                <Segment raised circular>
-                  <Image src={influx} circular size='large'/>
-                </Segment>
-                <Header as={'h3'}>{`TICK Stack`}</Header>
-                <div>{`Golang-based timeseries data ETL framework`}</div>
-              </Grid.Column>
+                <Grid.Column>
+                  <Segment raised circular>
+                    <Image src={influx} circular size='large'/>
+                  </Segment>
+                  <Header as={'h3'}>{`TICK Stack`}</Header>
+                  <div>{`Golang-based timeseries data ETL framework`}</div>
+                </Grid.Column>
+                <Grid.Column>
+                  <Segment raised circular>
+                    <Image src={pytorch} circular size='large'/>
+                  </Segment>
+                  <Header as={'h3'}>{`Pytorch`}</Header>
+                  <div>{`Python-based neural net framework`}</div>
+                </Grid.Column>
             </Grid.Row>
           </Grid>
           <Divider></Divider>

@@ -15,7 +15,7 @@ class Home extends Component {
     document.title="Home";
     getVisitorCount(res => {
       this.setState({visitorCount: res})
-    })
+      })
 
   }
 
@@ -25,9 +25,9 @@ class Home extends Component {
       <SideNav>
         <Container>
           <Segment>
-          <Header as='h1'> Welcome to {name}! </Header>
+          <Header as='h1'> Welcome to {name} </Header>
           <Divider></Divider>
-          <Header as='h3'>Feel free to use the sidebar or click on any of the below cards to visit!</Header>
+          <Header as='h3'>Use the sidebar or click on any of the below cards to visit individual pages.</Header>
 
           <br />
           <br />

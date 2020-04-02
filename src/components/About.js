@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Grid, Header, Container, Divider, List, Segment, Image } from 'semantic-ui-react'
+import {Grid, Header, Container, Divider, List, Segment, Image, Menu} from 'semantic-ui-react'
 import SideNav from './SideNav'
+import SpotifyPlayer from "react-spotify-player";
 
 const styles = {
   quoteStyle : {
@@ -63,6 +64,22 @@ class About extends Component {
               <p>
                 <Grid stackable divided columns={2} verticalAlign='middle'>
                   <Grid.Row>
+                    <Grid.Column width={5}>
+                      <Segment raised><SpotifyPlayer uri={"spotify:playlist:5nnhRf4wfc69giaL5eQX0D"}
+                                                     size={"compact"}
+                                                     view={"list"}
+                                                     theme={"black"}
+                      /></Segment>
+                    </Grid.Column>
+                    <Grid.Column width={11}>
+                      <Header as={'h3'}>{`Music Enthusiast`}</Header>
+                      <p>
+                        {`I'm exploiting my Spotify Premium as much as possible.`}
+                      </p>
+                    </Grid.Column>
+                  </Grid.Row>
+                  <Divider></Divider>
+                  <Grid.Row>
                     <Grid.Column width={12}>
                       <Header as={'h3'}>{`Civilization VI Fanatic`}</Header>
                       <p>
@@ -100,12 +117,12 @@ class About extends Component {
                   <Divider></Divider>
                   <Grid.Row>
                     <Grid.Column width={4}>
-                      <Segment raised><Image src={require('../img/csgo.jpg')} /></Segment>
+                      <Segment raised><Image src={require('../img/halo.jpg')} /></Segment>
                     </Grid.Column>
                     <Grid.Column width={12}>
-                    <Header as={'h3'}>{`CS:GO Bot Dominator`}</Header>
+                    <Header as={'h3'}>{`Halo Missionary`}</Header>
                     <p>
-                      {`Not many of my friends play CS:GO. If you do, add me on Steam!`}
+                      {`From loving the music to loving the game, this is one of my favorite games, and something I `}<i>{`urge`}</i>{` everyone to try!`}
                     </p>
                     </Grid.Column>
                   </Grid.Row>
