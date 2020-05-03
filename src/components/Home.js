@@ -65,12 +65,12 @@ class Home extends Component {
                     description = 'Whatever I have built'/>
 
                   <Card
-                    href='/socialmedia'
+                    href='/contact'
                     image = {require('../img/socialmedia.jpg')}
                     color = 'blue'
-                    header = 'Why am I always online?'
-                    meta = 'Social Media'
-                    description = 'Links to my various social media profiles' />
+                    header = 'Contact'
+                    meta = 'Contact Me'
+                    description = 'Ways to contact me and find me on Social Media' />
             </Card.Group>
           </Segment>
           <Segment>

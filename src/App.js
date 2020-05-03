@@ -5,7 +5,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Education from './components/Education'
 import Programming from './components/Programming'
-import SocialMedia from './components/SocialMedia'
+import Contact from './components/Contact'
 import NoMatch from './components/NoMatch'
 
 let allowedPaths = [
@@ -14,7 +14,7 @@ let allowedPaths = [
   '/projects',
   '/education',
   '/programming',
-  '/socialmedia',
+  '/contact',
 ]
 
 
@@ -36,7 +36,7 @@ class App extends Component {
             <Route exact path={'/projects'} component={Projects} />
             <Route exact path={'/education'} component={Education} />
             <Route exact path={'/programming'} component={Programming} />
-            <Route exact path={'/socialmedia'} component={SocialMedia} /></div>
+            <Route exact path={'/contact'} component={Contact} /></div>
           </div>
         </BrowserRouter>
       </div>

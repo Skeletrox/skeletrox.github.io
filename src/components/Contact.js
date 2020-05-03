@@ -1,27 +1,19 @@
 import React, { Component } from 'react'
-import { Container, Header, Divider, Image, Icon, Button, Segment, Card, Input, TextArea, Form, Label, Modal} from 'semantic-ui-react'
+import { Container, Header, Divider, Image, Icon, Button, Segment, Card, Input, TextArea, Form, Label, Modal, Popup} from 'semantic-ui-react'
 import SideNav from './SideNav'
-import facebook from '../img/facebook.png'
-import soundcloud from '../img/soundcloud.png'
-import medium from '../img/medium.svg'
-import linkedin from '../img/linkedin.png'
-import steam from '../img/steam.jpg'
-import github from '../img/github.jpg'
-import twitter from '../img/twitter.png'
-import snapchat from '../img/snapchat.jpg'
 
 let sms = [
-  ["Facebook", "https://www.facebook.com/Chaosbane", facebook],
-  ["GitHub", "https://www.github.com/Skeletrox", github],
-  ["Medium", "https://medium.com/@skeletrox", medium],
-  ["LinkedIn", "https://www.linkedin.com/in/sriramvera/", linkedin],
-  ["Steam", "http://steamcommunity.com/id/skeletrox/home", steam],
-  ["Soundcloud", "https://soundcloud.com/sriram-ramaswamy", soundcloud],
+  ["https://www.facebook.com/Chaosbane", "facebook", "blue"],
+  ["https://www.github.com/Skeletrox", "github", "black"],
+  ["https://medium.com/@skeletrox", "medium", "black"],
+  ["https://www.linkedin.com/in/sriramvera/", "linkedin", "blue"],
+  ["http://steamcommunity.com/id/skeletrox/home", "steam", "black"],
+  ["https://soundcloud.com/sriram-ramaswamy", "soundcloud", "orange"],
 
   // <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-  ["Twitter", "https://twitter.com/SkeletroxVR", twitter]
+  ["https://twitter.com/SkeletroxVR", "twitter", "teal"]
 ]
-class SocialMedia extends Component {
+class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -34,7 +26,7 @@ class SocialMedia extends Component {
   }
 
   componentDidMount() {
-    document.title="Social Media";
+    document.title="Contact";
   }
 
   handleFromChange(e) {
@@ -69,42 +61,42 @@ class SocialMedia extends Component {
   }
 
   render() {
-    let smCards = sms.map((site, _) =>
-      <Card
-        href={site[1]}
+    let smIcons = sms.map((site, _) =>
+     <Segment href={site[0]} textAlign={'center'}><Icon
+        name={site[1]}
         target='_blank'
-        image={site[2]}
-        header={site[0]}
-        />)
+        size={'large'}
+        color={site[2]}
+     /></Segment>)
     return (
       <SideNav>
         <Container>
-          <Header as={'h1'}>
-            Social Media
-          </Header>
-          <Divider></Divider>
-          <Card.Group itemsPerRow={sms.length} stackable>
-              {smCards}
-          </Card.Group>
-          <Divider></Divider>
-          <Segment align='center'>
-          <Modal trigger={
-          <Button as='div' labelPosition='right'>
-            <Button color='black'>
-              <Icon name='snapchat ghost'/>
-            </Button>
-            <Label as='a' basic color='black' pointing='left'>
-              Get Snapcode
-            </Label>
-          </Button>} basic size='small' closeicon>
-            <Image
-              src={snapchat} />
-          </Modal>
-          </Segment>
           <Divider></Divider>
           <Header as={'h1'}>
             Contact Me!
           </Header>
+          <Segment raised>
+            <Header as={'h2'}>
+              Reach me at:
+            </Header>
+            <Segment >
+              <Icon name={'phone'} color={'teal'} size={'large'}/>{'+{USA Country Code} ({Los Angeles Area Code}) 453-2725'} <br />
+              <Divider />
+              <Popup content={"Use the form below to send a quick email"}
+                     trigger={<div><Icon
+                                name={'mail outline'}
+                                color={'teal'}
+                                size={'large'}/> {'sriram fullstop rmswmy (shift+2) gmail fullstop com'}</div>} />
+              <Divider />
+              <Header as={'h3'}>
+                Social Media
+              </Header>
+              <Divider></Divider>
+              <Segment.Group horizontal>
+                {smIcons}
+              </Segment.Group>
+            </Segment>
+          </Segment>
           <Segment raised>
             <Label ribbon color='teal'><p>{`Your name:`}</p></Label><br /><br />
             <Input onChange = {this.handleFromChange.bind(this)} fluid placeholder={this.state.fromError ? "This field is required." : "From"} error={this.state.fromError}/>
@@ -133,4 +125,4 @@ class SocialMedia extends Component {
   }
 }
 
-export default SocialMedia;
+export default Contact;

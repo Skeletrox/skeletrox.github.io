@@ -8,7 +8,7 @@ let pageNames = {
   '/education' : 'Education',
   '/projects' : 'Projects',
   '/programming' : 'Programming',
-  '/socialmedia' : 'Social Media'
+  '/contact' : 'Contact'
 }
 
 class SideNav extends Component {
@@ -26,8 +26,8 @@ class SideNav extends Component {
   }
 
   render() {
-    let activeColor = 'violet';
-    let passiveColor = 'blue';
+    let activeColor = 'blue';
+    let passiveColor = 'black';
     return (
       <Sidebar.Pushable style={{ height : '100%' }}>
         <Sidebar as={Menu} animation='push' width='thin' visible={this.state.visible} icon='labeled' vertical style={{ height : '100%' }}>
@@ -51,9 +51,9 @@ class SideNav extends Component {
               <Icon name='terminal' color={window.location.pathname === '/programming' ? activeColor : passiveColor}/>
               Programming Skills
             </Menu.Item>
-            <Menu.Item name='socialmedia' as={Link} to={'/socialmedia'}>
-              <Icon name='world' color={window.location.pathname === '/socialmedia' ? activeColor : passiveColor}/>
-              Social Media
+            <Menu.Item name='contact' as={Link} to={'/contact'}>
+              <Icon name='address card outline' color={window.location.pathname === '/contact' ? activeColor : passiveColor}/>
+              Contact
             </Menu.Item>
             <Divider></Divider>
             <Divider></Divider>
