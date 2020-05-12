@@ -83,7 +83,7 @@ class About extends Component {
                     <Grid.Column width={12}>
                       <Header as={'h3'}>{`Civilization VI Fanatic`}</Header>
                       <p>
-                        {`I won't invade you. I'll ust enforce attrition to your loyalty. Please safeguard your great works too!`}
+                        {`I won't invade you. I'll just enforce attrition to your loyalty. Please safeguard your great works too!`}
                       </p>
                     </Grid.Column>
                     <Grid.Column width={4}>
