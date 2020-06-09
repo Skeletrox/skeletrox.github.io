@@ -218,7 +218,7 @@ class Education extends Component {
                   {'2019-2021'}
                 </List.Item>
                 <List.Item>
-                  {'Degree : Master of Science in Computer Science'}
+                  {'Degree : Master of Science in Computer Science (Data Science)'}
                 </List.Item>
               </List>
           </div>

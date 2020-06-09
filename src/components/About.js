@@ -36,7 +36,10 @@ class About extends Component {
             <p>
               <List bulleted>
                 <List.Item>
-                  Graduate Student pursuing Master of Science in Computer Science at the USC Viterbi School of Engineering
+                  SDE Intern, AWS Redshift
+                </List.Item>
+                <List.Item>
+                  Graduate Student pursuing Master of Science in Computer Science (Data Science) at the USC Viterbi School of Engineering
                 </List.Item>
                 <List.Item>
                   Computer Science and Engineering Graduate
@@ -93,7 +96,7 @@ class About extends Component {
                   <Divider></Divider>
                   <Grid.Row>
                     <Grid.Column width={4}>
-                      <Segment raised><Image src={require('../img/minecraft.jpg')} /></Segment>
+                      <Segment raised><Image src={require('../img/minecraft.png')} /></Segment>
                     </Grid.Column>
                     <Grid.Column width={12}>
                     <Header as={'h3'}>{`Minecraft Civil Engineer`}</Header>
