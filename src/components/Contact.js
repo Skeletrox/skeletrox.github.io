@@ -4,6 +4,7 @@ import SideNav from './SideNav'
 
 let sms = [
   ["https://www.facebook.com/Chaosbane", "facebook", "blue"],
+  ["https://www.instagram.com/sriram.rmswmy/", "instagram", "purple"],
   ["https://www.github.com/Skeletrox", "github", "black"],
   ["https://medium.com/@skeletrox", "medium", "black"],
   ["https://www.linkedin.com/in/sriramvera/", "linkedin", "blue"],
