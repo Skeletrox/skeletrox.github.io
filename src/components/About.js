@@ -114,7 +114,7 @@ class About extends Component {
                     </p>
                     </Grid.Column>
                     <Grid.Column width={4}>
-                      <Segment raised><Image src={require('../img/about.jpg')} /></Segment>
+                      <Segment raised><Image src={require('../img/fresher.jpg')} /></Segment>
                     </Grid.Column>
                   </Grid.Row>
                   <Divider></Divider>

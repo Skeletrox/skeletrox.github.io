@@ -7,7 +7,7 @@ class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      visitorCount : 0
+      visitorCount : "Loading"
     }
   }
 
@@ -15,8 +15,7 @@ class Home extends Component {
     document.title="Home";
     getVisitorCount(res => {
       this.setState({visitorCount: res})
-      })
-
+      });
   }
 
   render() {
