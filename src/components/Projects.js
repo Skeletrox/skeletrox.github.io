@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Container, Divider, Header, Segment, Card, Button, Icon } from 'semantic-ui-react'
+import { Container, Divider, Header, Segment, Card } from 'semantic-ui-react'
 import SideNav from './SideNav'
 import openrap from '../img/openrap.jpg'
 import vasscrypt from '../img/vasscrypt.jpg'
@@ -13,8 +13,10 @@ import hussar from '../img/hussar.png'
 import geforce from '../img/nvidia-geforce-gtx-logo.png'
 import blackjack from '../img/blackjack.png'
 import torcs from '../img/torcs.png'
+import flock from '../img/flock.jpg'
 
 let projectArray = [
+    ['Tensor-Cortex', 'Distributed Async ML System', 'Generalized Distributed ML System that can be easily modified for a variety of applications', 'https://github.com/Skeletrox/tensor-cortex', flock],
     ['Docker-TORCS', 'Distributed RL System', 'Distributed System that runs TORCS on headless docker for RL applications', 'https://github.com/Skeletrox/docker-torcs', torcs],
     ['Blackjack Bot', 'Explorations into Reinforcement Learning', 'Adversarial AI that uses Q-Learning to effectively strategize Blackjack', 'https://github.com/Skeletrox/blackjackbot', blackjack],
     ['Halma Hussar', 'Grad School Assignment','C++ based agent that plays Halma (a variation of checkers) featuring a custom scoring function',  'https://github.com/Skeletrox/halma-hussar', hussar],
