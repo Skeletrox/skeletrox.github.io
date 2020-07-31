@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.4ba6d927.css",
   "main.css.map": "static/css/main.4ba6d927.css.map",
-  "main.js": "static/js/main.0ac68db9.js",
-  "main.js.map": "static/js/main.0ac68db9.js.map",
+  "main.js": "static/js/main.140c2ac1.js",
+  "main.js.map": "static/js/main.140c2ac1.js.map",
   "static\\media\\CV_Masters_common.pdf": "static/media/CV_Masters_common.0a5e2424.pdf",
   "static\\media\\ICAECC_-_2018_paper_70.pdf": "static/media/ICAECC_-_2018_paper_70.a0d0a3a3.pdf",
   "static\\media\\about.jpg": "static/media/about.97cb5bd9.jpg",
@@ -23,6 +23,7 @@
   "static\\media\\django.png": "static/media/django.f0aa3376.png",
   "static\\media\\education.jpg": "static/media/education.c56b70fa.jpg",
   "static\\media\\flags.png": "static/media/flags.9c74e172.png",
+  "static\\media\\flock.jpg": "static/media/flock.9e10626d.jpg",
   "static\\media\\fresher.jpg": "static/media/fresher.df26fe6e.jpg",
   "static\\media\\golang.png": "static/media/golang.a52fa4f1.png",
   "static\\media\\gs_image.png": "static/media/gs_image.e427b640.png",
