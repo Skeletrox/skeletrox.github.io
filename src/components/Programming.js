@@ -17,7 +17,7 @@ import pytorch from '../img/pytorch-logo.png'
 
 let languages = [
     ['C', 8, 7, 'teal', c],
-    ['C++', 8, 9, 'blue', cpp],
+    ['C++', 8.5, 9.5, 'blue', cpp],
     ['Java', 8, 7, 'orange', java],
     ['Python', 9, 9.5, 'yellow', python],
     ['JavaScript', 8, 5, 'grey', js],
