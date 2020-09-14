@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Header, Divider, Segment , Card, Container, Statistic } from 'semantic-ui-react'
+import { Header, Divider, Segment , Card, Container, Statistic } from 'semantic-ui-react'
 import SideNav from './SideNav'
 import { getVisitorCount } from '../actions/actions'
 

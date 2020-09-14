@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Grid, Header, Container, Divider, List, Segment, Image, Menu} from 'semantic-ui-react'
+import {Grid, Header, Container, Divider, List, Segment, Image, Menu, Button} from 'semantic-ui-react'
 import SideNav from './SideNav'
 import SpotifyPlayer from "react-spotify-player";
 
@@ -32,7 +32,11 @@ class About extends Component {
             <Header as='h1'>About Me</Header>
             <Divider></Divider>
             <p style = {styles.quoteStyle}> "The greatest happiness for the thinking man is to have fathomed the fathomable, and to quietly revere the unfathomable."<div style={styles.quoteAuthor}>-Johann Wolfgang von Goethe</div></p>
-            <Divider horizontal>End obligatory quote</Divider><br /><br />
+            <Divider horizontal>End obligatory quote</Divider><br />
+            <div align="center">
+              <Button basic color={"blue"} href={require('../pdf/CV_Masters_common.pdf')}>Skip to CV</Button>
+            </div><br />
+            <Divider horizontal>Summary</Divider>
             <p>
               <List bulleted>
                 <List.Item>
