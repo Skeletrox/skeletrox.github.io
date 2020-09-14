@@ -40,6 +40,9 @@ class About extends Component {
             <p>
               <List bulleted>
                 <List.Item>
+                  Digital Development Lead, USC Annenberg Media
+                </List.Item>
+                <List.Item>
                   SDE Intern, AWS Redshift
                 </List.Item>
                 <List.Item>

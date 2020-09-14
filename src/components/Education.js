@@ -412,6 +412,16 @@ class Education extends Component {
                     <List.Item><p>{`July 2018 - June 2019`}</p></List.Item>
                     <List.Item><p>{`Extracting, analyzing and training models built using TensorFlow on network-based data from a variety of sources, including FreeRadius, InfluxDB and Packetflow`}</p></List.Item>
                   </List>
+                  <Header as={'h3'}>Digital Development Lead, USC Annenberg Media</Header>
+                  <List bulleted>
+                    <List.Item><p>{`January 2020 - Present`}</p></List.Item>
+                    <List.Item><p>{`Updating and maintaining the USC Annenberg Media Website`}</p></List.Item>
+                  </List>
+                  <Header as={'h3'}>SDE Intern, AWS Redshift</Header>
+                  <List bulleted>
+                    <List.Item><p>{`May 2020 - August 2020`}</p></List.Item>
+                    <List.Item><p>{`Developed a snapshot inspector to automatically verify database backups in S3 that reduced hours of manual debugging to seconds of running a CLI tool`}</p></List.Item>
+                  </List>
                 </Segment>
                 <Divider></Divider>
                 <Segment raised>
