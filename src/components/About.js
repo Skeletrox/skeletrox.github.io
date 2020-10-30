@@ -31,7 +31,7 @@ class About extends Component {
           <Container>
             <Header as='h1'>About Me</Header>
             <Divider></Divider>
-            <p style = {styles.quoteStyle}> "The greatest happiness for the thinking man is to have fathomed the fathomable, and to quietly revere the unfathomable."<div style={styles.quoteAuthor}>-Johann Wolfgang von Goethe</div></p>
+            <p style = {styles.quoteStyle}> "L'uomo vera portato dalla sua creazione, Come gli uccelli verso il cielo, Riempendo l'universo di stupore e gloria."<div style={styles.quoteAuthor}>-Leonardo da Vinci</div></p>
             <Divider horizontal>End obligatory quote</Divider><br />
             <div align="center">
               <Button basic color={"blue"} href={require('../pdf/CV_Masters_common.pdf')}>Skip to CV</Button>
