@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.4ba6d927.css",
   "main.css.map": "static/css/main.4ba6d927.css.map",
-  "main.js": "static/js/main.9afed0a2.js",
-  "main.js.map": "static/js/main.9afed0a2.js.map",
+  "main.js": "static/js/main.24073dbf.js",
+  "main.js.map": "static/js/main.24073dbf.js.map",
   "static\\media\\CV_Masters_common.pdf": "static/media/CV_Masters_common.0d0074c3.pdf",
   "static\\media\\ICAECC_-_2018_paper_70.pdf": "static/media/ICAECC_-_2018_paper_70.a0d0a3a3.pdf",
   "static\\media\\about.jpg": "static/media/about.c379bf1d.jpg",
@@ -55,6 +55,7 @@
   "static\\media\\resqos.png": "static/media/resqos.d1bc807d.png",
   "static\\media\\school_image.jpg": "static/media/school_image.9ab57636.jpg",
   "static\\media\\socialmedia.jpg": "static/media/socialmedia.3b59b8fe.jpg",
+  "static\\media\\spark.svg": "static/media/spark.78278e55.svg",
   "static\\media\\tensorflow.png": "static/media/tensorflow.a8be12cf.png",
   "static\\media\\torcs.png": "static/media/torcs.b2760b88.png",
   "static\\media\\ug_image.jpg": "static/media/ug_image.9c67950a.jpg",
