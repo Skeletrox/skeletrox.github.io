@@ -130,7 +130,7 @@ class About extends Component {
                       <Segment raised><Image src={require('../img/halo.jpg')} /></Segment>
                     </Grid.Column>
                     <Grid.Column width={12}>
-                    <Header as={'h3'}>{`Halo Missionary`}</Header>
+                    <Header as={'h3'}>{`Halo Fan`}</Header>
                     <p>
                       {`From loving the music to loving the game, this is one of my favorite games, and something I `}<i>{`urge`}</i>{` everyone to try!`}
                     </p>

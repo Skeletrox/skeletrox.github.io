@@ -14,6 +14,7 @@ import django from '../img/django.png'
 import tensorflow from '../img/tensorflow.png'
 import influx from '../img/influx.svg'
 import pytorch from '../img/pytorch-logo.png'
+import spark from '../img/spark.svg'
 
 let languages = [
     ['C', 8, 7, 'teal', c],
@@ -141,6 +142,13 @@ class Programming extends Component {
                   </Segment>
                   <Header as={'h3'}>{`Pytorch`}</Header>
                   <div>{`Python-based neural net framework`}</div>
+                </Grid.Column>
+                <Grid.Column>
+                  <Segment raised circular>
+                    <Image src={spark} circular size='large'/>
+                  </Segment>
+                  <Header as={'h3'}>{`Spark`}</Header>
+                  <div>{`Distributed Data Processing Pipeline`}</div>
                 </Grid.Column>
             </Grid.Row>
           </Grid>
