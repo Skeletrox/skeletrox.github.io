@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.4ba6d927.css",
   "main.css.map": "static/css/main.4ba6d927.css.map",
-  "main.js": "static/js/main.24073dbf.js",
-  "main.js.map": "static/js/main.24073dbf.js.map",
+  "main.js": "static/js/main.545ebc46.js",
+  "main.js.map": "static/js/main.545ebc46.js.map",
   "static\\media\\CV_Masters_common.pdf": "static/media/CV_Masters_common.0d0074c3.pdf",
   "static\\media\\ICAECC_-_2018_paper_70.pdf": "static/media/ICAECC_-_2018_paper_70.a0d0a3a3.pdf",
   "static\\media\\about.jpg": "static/media/about.c379bf1d.jpg",
@@ -39,6 +39,7 @@
   "static\\media\\js.png": "static/media/js.a37eeddf.png",
   "static\\media\\minecraft.png": "static/media/minecraft.ec03529b.png",
   "static\\media\\music.jpg": "static/media/music.0b54c54a.jpg",
+  "static\\media\\musiquity.jpg": "static/media/musiquity.4063abfd.jpg",
   "static\\media\\mysql.png": "static/media/mysql.07173b2b.png",
   "static\\media\\nvidia-geforce-gtx-logo.png": "static/media/nvidia-geforce-gtx-logo.afe098c1.png",
   "static\\media\\openrap.jpg": "static/media/openrap.cba547d9.jpg",
