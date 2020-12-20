@@ -14,8 +14,10 @@ import geforce from '../img/nvidia-geforce-gtx-logo.png'
 import blackjack from '../img/blackjack.png'
 import torcs from '../img/torcs.png'
 import flock from '../img/flock.jpg'
+import musiquity from '../img/musiquity.jpg'
 
 let projectArray = [
+    ['Musiquity', 'Distributed Telemetric Analysis', 'Distributed Databases that help create a real-time workout mix', 'https://github.com/Skeletrox/musiquity', musiquity],
     ['Tensor-Cortex', 'Distributed Async ML System', 'Generalized Distributed ML System that can be easily modified for a variety of applications', 'https://github.com/Skeletrox/tensor-cortex', flock],
     ['Docker-TORCS', 'Distributed RL System', 'Distributed System that runs TORCS on headless docker for RL applications', 'https://github.com/Skeletrox/docker-torcs', torcs],
     ['Blackjack Bot', 'Explorations into Reinforcement Learning', 'Adversarial AI that uses Q-Learning to effectively strategize Blackjack', 'https://github.com/Skeletrox/blackjackbot', blackjack],
