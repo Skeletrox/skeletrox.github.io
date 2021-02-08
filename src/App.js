@@ -32,11 +32,11 @@ class App extends Component {
         <BrowserRouter>
           <div style={{ height : '100%' }}>
             <div><Route exact path={'/'} component={Home} />
-            <Route exact path={'/about'} component={About} />
-            <Route exact path={'/projects'} component={Projects} />
-            <Route exact path={'/education'} component={Education} />
-            <Route exact path={'/programming'} component={Programming} />
-            <Route exact path={'/contact'} component={Contact} /></div>
+            <Route path={'/about'} component={About} />
+            <Route path={'/projects'} component={Projects} />
+            <Route path={'/education'} component={Education} />
+            <Route path={'/programming'} component={Programming} />
+            <Route path={'/contact'} component={Contact} /></div>
           </div>
         </BrowserRouter>
       </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Divider, Header, Segment, Card } from 'semantic-ui-react'
+import {Container, Divider, Header, Segment, Card, Grid, Image} from 'semantic-ui-react'
 import SideNav from './SideNav'
 import openrap from '../img/openrap.jpg'
 import vasscrypt from '../img/vasscrypt.jpg'
@@ -76,12 +76,20 @@ class Projects extends Component {
     )
 
     return (
-      <SideNav>
         <Container>
-          <Header as={'h1'}>Projects</Header>
-          <Divider></Divider>
-          <p>{`Whatever I have built and contributed to till date.`}</p>
-          <Divider></Divider>
+            <Grid stackable divided columns={2} verticalAlign='middle'>
+                <Grid.Row>
+                    <Grid.Column width={4}>
+                        <Segment raised><Image size='large' src={require('../img/projects.jpg')} /></Segment>
+                    </Grid.Column>
+                    <Grid.Column width={12}>
+                        <Header as={'h1'}>{`Projects`}</Header>
+                        <p>
+                            {`Whatever I have built and contributed to till date`}
+                        </p>
+                    </Grid.Column>
+                </Grid.Row>
+            </Grid>
           <Segment raised>
             <Card.Group stackable centered itemsPerRow={2}>
               {projectCards}
@@ -97,7 +105,6 @@ class Projects extends Component {
             </Card.Group>
           </Segment>
         </Container>
-      </SideNav>
     )
   }
 }

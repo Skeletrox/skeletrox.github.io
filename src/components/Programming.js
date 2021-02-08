@@ -54,12 +54,20 @@ class Programming extends Component {
     let testedList = testedWaters.map((lang, index) => <List.Item><p>{lang}</p></List.Item>)
 
     return (
-      <SideNav>
         <Container>
-          <Header as={'h1'}>Programming Skills</Header>
-          <Divider></Divider>
-          <p>{`Here's what I can code, how much I can code, and how much I like to code in it`}</p>
-          <Divider></Divider>
+            <Grid stackable divided columns={2} verticalAlign='middle'>
+                <Grid.Row>
+                    <Grid.Column width={4}>
+                        <Segment raised><Image size='large' src={require('../img/programming.jpg')} /></Segment>
+                    </Grid.Column>
+                    <Grid.Column width={12}>
+                        <Header as={'h1'}>{`Code`}</Header>
+                        <p>
+                            {`Breakdown of what and how I code`}
+                        </p>
+                    </Grid.Column>
+                </Grid.Row>
+            </Grid>
           <Header as={'h2'}>{`Performance Metrics`}</Header>
           <Grid columns={2} stackable>
             <Grid.Row>
@@ -159,7 +167,6 @@ class Programming extends Component {
             {testedList}
           </List>
         </Container>
-      </SideNav>
     )
   }
 }

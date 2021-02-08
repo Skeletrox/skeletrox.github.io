@@ -1,5 +1,21 @@
 import React, { Component } from 'react'
-import { Container, Header, Divider, Image, Icon, Button, Segment, Card, Input, TextArea, Form, Label, Modal, Popup} from 'semantic-ui-react'
+import {
+  Container,
+  Header,
+  Divider,
+  Image,
+  Icon,
+  Button,
+  Segment,
+  Card,
+  Input,
+  TextArea,
+  Form,
+  Label,
+  Modal,
+  Popup,
+  Grid
+} from 'semantic-ui-react'
 import SideNav from './SideNav'
 
 let sms = [
@@ -70,12 +86,21 @@ class Contact extends Component {
         color={site[2]}
      /></Segment>)
     return (
-      <SideNav>
         <Container>
+          <Grid stackable divided columns={2} verticalAlign='middle'>
+            <Grid.Row>
+              <Grid.Column width={4}>
+                <Segment raised><Image size='large' src={require('../img/socialmedia.jpg')} /></Segment>
+              </Grid.Column>
+              <Grid.Column width={12}>
+                <Header as={'h1'}>{`Contact`}</Header>
+                <p>
+                  {`Ways to contact me and find me on Social Media`}
+                </p>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
           <Divider></Divider>
-          <Header as={'h1'}>
-            Contact Me!
-          </Header>
           <Segment raised>
             <Header as={'h2'}>
               Reach me at:
@@ -121,7 +146,6 @@ class Contact extends Component {
             </Form>
           </Segment>
         </Container>
-      </SideNav>
     )
   }
 }

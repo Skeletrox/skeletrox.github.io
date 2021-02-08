@@ -1,14 +1,28 @@
-import React, { Component } from 'react'
-import { Header, Divider, Segment , Card, Container, Statistic } from 'semantic-ui-react'
+import React, { Component, createRef } from 'react'
+import {Header, Divider, Segment, Card, Container, Statistic, Message, Grid, Image, Menu, Sticky, Tab} from 'semantic-ui-react'
 import SideNav from './SideNav'
+import About from './About'
+import Contact from './Contact'
+import Education from './Education'
+import Programming from './Programming'
+import Projects from "./Projects";
 import { getVisitorCount } from '../actions/actions'
 
 class Home extends Component {
+  contextRef = createRef();
   constructor(props) {
     super(props);
     this.state = {
-      visitorCount : "Loading"
+      visitorCount : "Loading",
+      activeIndex: -1
     }
+  }
+
+  handleTitleClick = (e, titleProps) => {
+    const { index } = titleProps;
+    const activeIndex = this.state.activeIndex;
+    const newIndex = (activeIndex === index ? -1 : index);
+    this.setState({activeIndex : newIndex})
   }
 
   componentDidMount() {
@@ -18,60 +32,36 @@ class Home extends Component {
       });
   }
 
+  panes = [
+    {
+      menuItem: "About",
+      render: () => <Tab.Pane><About /></Tab.Pane>
+    },
+    {
+      menuItem: "Education",
+      render: () => <Tab.Pane><Education /></Tab.Pane>
+    },
+    {
+      menuItem: "Code",
+      render: () => <Tab.Pane><Programming /></Tab.Pane>
+    },
+    {
+      menuItem: "Projects",
+      render: () => <Tab.Pane><Projects /></Tab.Pane>
+    },
+    {
+      menuItem: "Contact",
+      render: () => <Tab.Pane><Contact /></Tab.Pane>
+    },
+  ]
+
   render() {
-    let name = "Sriram's Website"
+    let name = "Sriram's Website";
+    let orientation = window.screen.orientation.angle;
     return (
-      <SideNav>
+        <Segment>
         <Container>
-          <Segment>
-          <Header as='h1'> Welcome to {name} </Header>
-          <Divider></Divider>
-          <Header as='h3'>Use the sidebar or click on any of the below cards to visit individual pages.</Header>
-
-          <br />
-          <br />
-            <Card.Group stackable centered itemsPerRow={3}>
-                  <Card
-                    href = '/about'
-                    image = {require('../img/about.jpg')}
-                    color = 'blue'
-                    header = 'Who am I?'
-                    meta = 'Introduction'
-                    description = 'What I think of myself'/>
-
-                  <Card
-                    href = '/education'
-                    image = {require('../img/education.jpg')}
-                    color = 'blue'
-                    header = 'Where did I study?'
-                    meta = 'Educational Details'
-                    description = 'High School, Tertiary Education and Certifications'/>
-
-                  <Card
-                    href = '/programming'
-                    image = {require('../img/programming.jpg')}
-                    color = 'blue'
-                    header = 'What can I do?'
-                    meta = 'Coding skills'
-                    description = 'Breakdown of what and how I code'/>
-
-                  <Card
-                    href = '/projects'
-                    image = {require('../img/projects.jpg')}
-                    color = 'blue'
-                    header = 'What have I made?'
-                    meta = 'Projects'
-                    description = 'Whatever I have built'/>
-
-                  <Card
-                    href='/contact'
-                    image = {require('../img/socialmedia.jpg')}
-                    color = 'blue'
-                    header = 'Contact'
-                    meta = 'Contact Me'
-                    description = 'Ways to contact me and find me on Social Media' />
-            </Card.Group>
-          </Segment>
+          <Tab panes={this.panes} />
           <Segment>
             <Header as='h2'> You are visitor number: </Header>
               <Card.Group
@@ -92,7 +82,7 @@ class Home extends Component {
               </Card.Group>
           </Segment>
           </Container>
-      </SideNav>
+        </Segment>
     )
   }
 }

@@ -1,5 +1,20 @@
 import React, { Component } from 'react'
-import { Grid, Container, Header, Divider, List, Table, Accordion, Icon, Label, Card, Tab, Statistic, Segment } from 'semantic-ui-react'
+import {
+  Grid,
+  Container,
+  Header,
+  Divider,
+  List,
+  Table,
+  Accordion,
+  Icon,
+  Label,
+  Card,
+  Tab,
+  Statistic,
+  Segment,
+  Image
+} from 'semantic-ui-react'
 import SideNav from './SideNav'
 
 
@@ -469,11 +484,24 @@ class Education extends Component {
 
   render() {
     return (
-      <SideNav>
         <Container>
-          <Tab panes = {this.panes}/>
+          <Grid stackable divided columns={2} verticalAlign='middle'>
+            <Grid.Row>
+              <Grid.Column width={4}>
+                <Segment raised><Image size='large' src={require('../img/education.jpg')} /></Segment>
+              </Grid.Column>
+              <Grid.Column width={12}>
+                <Header as={'h1'}>{`Education`}</Header>
+                <p>
+                  {`High School, Tertiary Education and Certifications`}
+                </p>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+          <Segment>
+            <Tab panes = {this.panes}/>
+          </Segment>
         </Container>
-      </SideNav>
     )
   }
 }

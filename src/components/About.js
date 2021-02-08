@@ -27,9 +27,20 @@ class About extends Component {
     let something = `I dread this question not because I fear it, but because I wonder what angle I need to approach this from, and what this person wants from this answer. Does he want to know if I'm a team player? Does she want to know my tastes in music? Does the panel want my autobiography?`
     let somethingPt2 = `Since you've taken the trouble of opening my website, I'll explain everything.`
     return (
-        <SideNav>
           <Container>
-            <Header as='h1'>About Me</Header>
+            <Grid stackable divided columns={2} verticalAlign='middle'>
+              <Grid.Row>
+                <Grid.Column width={4}>
+                  <Segment raised><Image size='large' src={require('../img/about.jpg')} /></Segment>
+                </Grid.Column>
+                <Grid.Column width={12}>
+                  <Header as={'h1'}>{`About Me`}</Header>
+                  <p>
+                    {`Who am I? What do I do? What do I like?`}
+                  </p>
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
             <Divider></Divider>
             <p style = {styles.quoteStyle}> "L'uomo vera portato dalla sua creazione, Come gli uccelli verso il cielo, Riempendo l'universo di stupore e gloria."<div style={styles.quoteAuthor}>-Leonardo da Vinci</div></p>
             <Divider horizontal>End obligatory quote</Divider><br />
@@ -68,7 +79,7 @@ class About extends Component {
             <Segment stacked>
               <Header as='h2'>Who am I?</Header>
               <p>
-                { `Grad Student. Writes code like calligraphy. Creatively inspired by video game soundtracks. Builds whatever catches his liking.`}
+                { `Grad Student. Polyglot. Writes code like calligraphy. Creatively inspired by video game soundtracks. Builds whatever catches his liking.`}
               </p>
               <Divider horizontal>{`Coding Prowess Aside:`}</Divider>
               <p>
@@ -153,7 +164,6 @@ class About extends Component {
               </p>
             </Segment>
           </Container>
-        </SideNav>
     )
   }
 }
