@@ -57,7 +57,6 @@ class Home extends Component {
 
   render() {
     let name = "Sriram's Website";
-    let orientation = window.screen.orientation.angle;
     return (
         <Segment>
         <Container>
