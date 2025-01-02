@@ -48,3 +48,8 @@ homeSubtitle = "A simple and beautiful blog"
     identifier = "portfolio"
     name       = "Portfolio"
     url        = "/portfolio"
+
+  [[menu.main]]
+    identifier = "resume"
+    name       = "PDF Resume"
+    url        = "/res/sriram_resume.pdf"
