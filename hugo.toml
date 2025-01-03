@@ -51,5 +51,15 @@ homeSubtitle = "A simple and beautiful blog"
 
   [[menu.main]]
     identifier = "resume"
-    name       = "PDF Resume"
+    name       = "Resume"
     url        = "/res/sriram_resume.pdf"
+
+  [[menu.main]]
+    idenitifier = "personal_blog"
+    name        = "Blog"
+    url         = "/personal_blog"
+
+  [[menu.main]]
+    identifier = "tech_blog"
+    name       = "Tech"
+    url        = "/tech_blog"
