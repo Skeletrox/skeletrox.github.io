@@ -69,6 +69,12 @@ But why? Why do I revert to these behaviors? And how can I hack them to do my bi
 As I write this, something dawns on me - each of these behavior classes tries to
 answer a question in my head.
 
+I realized that these behaviors gave me a sense of comfort - something that I would
+desperately need during those times of uncertainty. Of course, the comfort would
+then bite me later, but that explains the titillating temptations of our anxious
+behavior. And hey, if the problem eventually sorts itself out, why would we want
+to change? But anyway, I realized that these problem behaviors were the ones below.
+
 ### Running, working out, or doing something productive
 
 This is an answer for the question: _Am I good enough to solve this problem?_ I find
@@ -135,6 +141,25 @@ Then I got promoted and realized I was mentoring more and more people now. At th
 point I needed to know that I could write. I needed to know I could mentor. And thus,
 this blog was (re)born. My mentoring inspired me to write, and my writing inspired me
 to mentor.
+
+### How I went forth fighting it
+
+I wouldn't say I "solved" anxiety. I have just gotten better at fighting it. I
+realized that it was a lot easier to handle when I was doing something else that was
+productive. While doing it - I would try to see how I could solve this problem in
+front of me. And if it was the best solution - fine. If it was not, then I would
+have a jump-off point with actionable feedback to improve on this.
+
+So soon, I decided to make that my default behavior. Table the thoughts, and start
+something productive that did not need much thinking. Halfway through it, my
+thoughts would trickle down, and given that most of my productive work involves
+some sort of physical exertion, I would probably be hopped up on endorphins while
+I solved the problem. You know, win-win.
+
+It involved a lot of work. And now that I look at it - this post probably looks
+like another "do something productive and your problems go away" sort of post.
+But at least there is one example where this process worked. It is not easy, but
+it is worth it in the end.
 
 ## Final thoughts
 
