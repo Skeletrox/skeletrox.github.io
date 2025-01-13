@@ -11,14 +11,19 @@ about the ephemerality of everything around us. And that did not just include ma
 posessions. It included the attitudes of people toward us. Including people at power.
 
 Power is a complex thing. Power, the way I say it, does not imply politicians or
-bureaucrats. We all yield power over others, and others yield power over us. And for
-some reason, we are taught at a very young age, that holding on to that power is very,
-very important. Loss of that power, especially when the loss is due to factors out of
-our hand - leads to anxiety. Suddenly nothing makes sense. You don't have that
-apparent power over yourself. You aren't drifting with the current in a state of zen,
-you are being dragged along in a stampede, desperately gasping for air.
+bureaucrats. We all yield power over others, and others yield power over us. Most
+importantly, the power we have over ourselves and over our environment gives us a
+sense of self. Yet, as it is with childhood, the power over self is almost always
+overshadowed by the power others have over us. And this perception can extend into
+adulthood, even if it is not necessarily true in reality.
 
-Then suddenly the thought creeps in. _"I am done for."_
+Loss of that power over self, especially when the loss is due to factors out of
+our hand - leads to anxiety. Suddenly nothing makes sense. You have been "coerced"
+into losing that apparent power over yourself. You aren't drifting with the current
+in a state of zen, you are being dragged along in a stampede, desperately gasping
+for air.
+
+Then suddenly the thought creeps in. _"I am done for, unsalveagable."_
 
 Desperate, you look for answers. You look for reasons. You turn to superstition. The
 truth is, you need something to make sense here. There has to be a root cause. If
@@ -28,7 +33,7 @@ put in.
 
 Yet, most of the time, there is no visible root cause, or a visible path forward.
 A visible, but unactionable root cause will give you a moment of zen, albeit 
-eventually.
+eventually. That path forward, the ability to deal with your anxiety, is important.
 When I talk about a path forward, it is mainly the answer to this question:
 
 > What are the future negative effects of this thing that is causing me distress?
@@ -73,7 +78,13 @@ I realized that these behaviors gave me a sense of comfort - something that I wo
 desperately need during those times of uncertainty. Of course, the comfort would
 then bite me later, but that explains the titillating temptations of our anxious
 behavior. And hey, if the problem eventually sorts itself out, why would we want
-to change? But anyway, I realized that these problem behaviors were the ones below.
+to change? What we fail to see is that this behavior does not induce positive change.
+And if we can barely functioning, positive change seems to be an unreachable add-on
+to survival.
+
+Yet, a lot of the incrementally positive change that I create is due to "tricking"
+myself into using anxious actions to my advantage. I usually deal with anxious thoughts
+as follows:
 
 ### Running, working out, or doing something productive
 
@@ -125,6 +136,12 @@ be going our way. I ranked these in the order I have based on how easy it is to 
 out of them, not how easy it is to get in them. Doomscrolling was my default reaction
 until videogames and workouts became accessible enough for me.
 
+Once they did, I made my doomscrolling conscious. Was I scrolling endlessly while
+waiting for my turn at the barbershop? That's fine. In the metro? Maybe, as long
+as I knew when I needed to get down. In my bed, with a deadline looming? Yeah... time
+to jot down what I need to do and get at least something done. I can reward myself
+with a small treat once done.
+
 
 ### A live example
 
@@ -154,7 +171,7 @@ So soon, I decided to make that my default behavior. Table the thoughts, and sta
 something productive that did not need much thinking. Halfway through it, my
 thoughts would trickle down, and given that most of my productive work involves
 some sort of physical exertion, I would probably be hopped up on endorphins while
-I solved the problem. You know, win-win.
+I took on the problem again with a fresh perspective. You know, win-win.
 
 It involved a lot of work. And now that I look at it - this post probably looks
 like another "do something productive and your problems go away" sort of post.
@@ -185,4 +202,5 @@ universally true, but something I tell all my mentees is - I know it is scary. I
 sometimes you get overwhelmed. We've all been there. And you can talk to me about it.
 
 If you don't want to talk about it - that's okay. Just read this blog.
+
 It is me trying to mentor myself.
