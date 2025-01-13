@@ -1,6 +1,6 @@
 baseURL = 'https://skeletrox.github.io'
 languageCode = 'en-us'
-title = 'Portfolio - Sriram Venkatachalam Ramaswamy'
+title = "Sriram's Website"
 theme = 're-terminal'
 pagination.PagerSize = 5
 homeSubtitle = "Sriram's blog"
@@ -15,7 +15,7 @@ enableSharingButtons = true
 enableGlobalLanguageMenu = true
 
 # Metadata mostly used in document's head
-description = "My new homepage or blog"
+description = "Sriram's website"
 keywords = "homepage, blog"
 images = [""]
 
@@ -26,7 +26,7 @@ images = [""]
 
 [languages]
   [languages.en]
-    title = "Portfolio - Sriram Venkatachalam Ramaswamy"
+    title = "Sriram's Website"
     subtitle = "Sriram's Website"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -39,7 +39,6 @@ images = [""]
       logoText = "Sriram Venkatachalam Ramaswamy"
       logoHomeLink = "/"
 
-  # And you can even create generic menu
   [[menu.main]]
     identifier = "portfolio"
     name       = "Portfolio"
@@ -59,6 +58,11 @@ images = [""]
     identifier = "tech_blog"
     name       = "Tech"
     url        = "/tech_blog"
+
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact/contact"
 
 [params]
 
