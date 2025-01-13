@@ -101,7 +101,7 @@ So in order to perform an action, you first press the keys to enter the command
 prefix, and then press the next key. Let me explain with an example. To split the
 window horizontally, press `<prefix>` and then press `%` (don't forget the shift!)
 
-![split window](/res/tmux/split_screen.png)
+{{< image src="/res/tmux/split_screen.png" alt="split window" position="center" style="border-radius: 8px;" >}}
 
 You can do the same, vertically, using `<prefix>` and `"`. Again, don't forget the shift.
 
@@ -112,7 +112,7 @@ terminal (remember what I said about the session needing to be explicitly closed
 Type the following: `<prefix> d`. You should now be out of the `tmux` session, and
 back into the shell where you triggered your tmux session. Run the following now:
 
-```
+```bash
 $ tmux list-sessions
 0: 1 windows (created Mon Jan  6 22:57:22 2025)
 ```
@@ -120,7 +120,7 @@ $ tmux list-sessions
 Wait, this is new! `tmux` is telling you that the old session is still open, and now
 you can connect to it. Simply run:
 
-```
+```bash
 $ tmux attach -d
 ```
 
@@ -157,7 +157,7 @@ how we use it, and make our workflows a lot easier, and a lot better to look at.
 
 The config file for `tmux` is `tmux.conf`. Let's create one, in `~/.tmux.conf`
 
-```
+```bash
 $ vim ~/.tmux.conf
 ```
 
@@ -300,14 +300,14 @@ Another trick I use in my work is to **always** attempt to detach from a session
 before creating a new one. This prevents multiple sessions when I do not expect
 them. So, I might run something like:
 
-```
+```bash
 $ tmux attach -d || tmux
 ```
 
 The `tmux attach -d` call will fail if there is no session running, making the
 shell execute the `tmux` section of the command. For custom sessions, I use
 
-```
+```bash
 $ tmux attach -dt shell || tmux new -s shell
 ```
 
