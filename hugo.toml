@@ -39,34 +39,48 @@ images = [""]
       logoText = "Sriram Venkatachalam Ramaswamy"
       logoHomeLink = "/"
 
-  [[menu.main]]
-    identifier = "portfolio"
-    name       = "Portfolio"
-    url        = "/portfolio"
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "portfolio"
+      name       = "Portfolio"
+      url        = "/portfolio"
 
-  [[menu.main]]
-    identifier = "resume"
-    name       = "Resume"
-    url        = "/res/sriram_resume.pdf"
+    [[languages.en.menu.main]]
+      identifier = "resume"
+      name       = "Resume"
+      url        = "/res/sriram_resume.pdf"
 
-  [[menu.main]]
-    idenitifier = "personal_blog"
-    name        = "Blog"
-    url         = "/personal_blog"
+    [[languages.en.menu.main]]
+      idenitifier = "personal_blog"
+      name        = "Blog"
+      url         = "/personal_blog"
 
-  [[menu.main]]
-    identifier = "tech_blog"
-    name       = "Tech"
-    url        = "/tech_blog"
+    [[languages.en.menu.main]]
+      identifier = "tech_blog"
+      name       = "Tech"
+      weight     = 10
+    
+    [[languages.en.menu.main]]
+      parent     = "tech_blog"
+      identifier = "general_tech"
+      name       = "General Tech"
+      url        = "/tech_blog"
 
-  [[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "/contact"
+    [[languages.en.menu.main]]
+      identifier = "contact"
+      name       = "Contact"
+      url        = "/contact"
+
+    [[languages.en.menu.main]]
+      identifier = "distributed_systems"
+      name       = "Distributed Systems"
+      url        = "/distributed_systems"
+      parent     = "tech_blog"
 
 [params]
 
   contentTypeName = "about"
+  showMenuItems = 5
 
   themeColor = "green"
 
