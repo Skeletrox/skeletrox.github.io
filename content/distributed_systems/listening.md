@@ -1,5 +1,5 @@
 +++
-date = '2025-01-16T18:31:53-08:00'
+date = '2025-01-18T18:31:53-08:00'
 draft = false
 title = 'Part 1: Listening'
 +++
@@ -13,7 +13,7 @@ input/invocation arguments, communicated entities, internal state, etc. We shall
 start with these forms of understanding before we move on to more complex means
 of deducing context.
 
-### Input / Invocation Arguments
+### Input / Invocation Arguments, and why we need active listening
 
 I wouldn't characterize this as "listening" per se, but rather "knowing in what
 context one spawns". We shall talk about this later, when we need to handle
@@ -47,8 +47,8 @@ Here, if I were to run this with a single argument, and then decided to try the
 function out with another, I must always trigger a new run of the program. This
 becomes a problem if I have external, rate-limited dependencies that I would
 want to keep common for multiple invocations of the program, or maybe even a
-complex setup process. Is there a way for the program to do something as
-follows?
+complex setup process. There's a lot of wasted time and potentially wasted work.
+Is there a way for the program to do something as follows?
 
 {{< image src="/res/ds_1_fc.png" alt="flowchart" position="center" style="border-radius: 8px;" >}}
 
