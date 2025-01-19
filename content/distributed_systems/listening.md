@@ -1,6 +1,6 @@
 +++
 date = '2025-01-16T18:31:53-08:00'
-draft = true
+draft = false
 title = 'Part 1: Listening'
 +++
 
