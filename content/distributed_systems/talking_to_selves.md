@@ -1,7 +1,7 @@
 +++
 date = '2025-02-20T22:02:35-08:00'
 draft = false
-title = 'Part 3: Talking to Selves'
+title = 'Part 3: Talking and Listening'
 +++
 
 ## Introduction
@@ -147,7 +147,7 @@ let addr = format!("127.0.0.1:{}", port.unwrap());
 Now all that is left is to replace all occurrences of `127.0.0.1:8080` with
 `addr`, and we're done!
 
-## Testing it out.
+## Testing it out
 
 Let's test it out with the following on your shell. Run the following:
 
@@ -174,5 +174,58 @@ Connection closed by 127.0.0.1:47720
 ```
 
 Here, we can see two instances of our simple listener talking to themselves by
-sending the same data to themselves! Let's explore talking to each other, even
-across machines, in the next article.
+sending the same data to themselves!
+
+## Talking to each other
+
+I originally wanted to write this as its own article, but the change is trivial
+enough that it can be a simple addendum to this one. Let's add a "target port"
+parameter that we use where we expect the other system to be listening in.
+
+```rust
+opts.optopt("t", "target", "Target of receiver", "TARGET_PORT");
+```
+
+Then parse it as follows:
+```rust
+let target = matches.opt_str("t");
+if target.is_none() {
+    panic!("No target specified!");
+}
+```
+
+Now we can connect to the target as follows:
+```rust
+let mut write_stream = match TcpStream::connect(
+            target_addr.clone()).await {
+            Ok(val) => val,
+            Err(e) => {
+                eprintln!("Could not connect: {:?}", e);
+                return;
+            }
+};
+```
+
+Let's try running this again.
+
+```bash
+$ ./simple_socket_comm -p 5555 -t 5556 & ./simple_socket_comm -p 5556 -t 5555 
+[1] 94453
+Server is listening on 127.0.0.1:5555
+Server is listening on 127.0.0.1:5556
+New connection from 127.0.0.1:39862
+Wrote data: "Talking to myself"
+Wrote data: "Talking to myself"
+New connection from 127.0.0.1:53044
+Received: "Returning: Talking to myself"
+Connection closed by 127.0.0.1:39862
+Received: "Returning: Talking to myself"
+Connection closed by 127.0.0.1:53044
+```
+
+> This example still says "talking to myself". Is there a way we can customize
+the message we send?
+
+## Next steps
+
+Next, let's explore deploying these with docker.
