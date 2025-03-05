@@ -266,7 +266,7 @@ struct and the methods `pub` to make them accessible outside the module.
 
 #### Adding them to the module exports file
 
-`mod.rs`, our module exports file, will look like this:
+`nw/mod.rs`, our module exports file, will look like this:
 
 ```rust
 pub mod receiver;
