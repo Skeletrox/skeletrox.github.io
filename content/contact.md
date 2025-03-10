@@ -11,6 +11,7 @@ title = 'Reachout'
 | instagram | https://instagram.com/sriram.rmswmy  |
 | threads   | https://threads.net/sriram.rmswmy    |
 | x         | https://x.com/SkeletroxVR            |
+| mastodon  | https://mastodon.social/@skeletrox   |
 
 ```json
 {
