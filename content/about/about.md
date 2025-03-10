@@ -16,3 +16,4 @@ This space shall contain feed-like updates that may not pertain to individual
 posts. Or it might change to something else. That's the flexibility of having
 a personal website as your blog :)
 
+<a rel="me" href="https://mastodon.social/@skeletrox"></a>

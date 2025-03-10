@@ -90,3 +90,6 @@ images = [""]
 
   Toc = true
   TocTitle = true
+
+[markup.goldmark.renderer]
+unsafe= true
