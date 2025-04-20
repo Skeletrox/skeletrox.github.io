@@ -1,7 +1,7 @@
 +++
 date = '2025-04-19T16:44:59-07:00'
 draft = false
-title = 'Errors'
+title = 'Part 6: Errors'
 +++
 
 Errors, errors, errors. Errors are everywhere. I recall a joke I had made on
