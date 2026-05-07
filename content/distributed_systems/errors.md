@@ -1,6 +1,6 @@
 +++
 date = '2025-04-19T16:44:59-07:00'
-draft = false
+draft = true
 title = 'Part 6: Errors'
 +++
 
