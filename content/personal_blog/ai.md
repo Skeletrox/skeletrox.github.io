@@ -132,7 +132,7 @@ and comments from accounts (I didn't use the word people because I could not be 
 
 One of them is a racist, misinformed dogwhistle. I want to argue. I don't have the energy. So I scroll past. Rinse
 and repeat. That same comment has spawned a few more, like a Hydra's head. It is not worth cutting that head off as
-I am not Hercules nor is this a labor worth doing.
+I am neither Hercules nor is this a labor worth doing.
 
 I get a Whatsapp message in one of the million family groups I am in. It is election season in a state none of us
 are in, were in, or are remotely associated with in any way. The message is slop. It is slop meant to elicit a
