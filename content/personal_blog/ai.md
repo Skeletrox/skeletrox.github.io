@@ -166,7 +166,7 @@ intro eight years ago, I mentioned my interest in AI. For me, it was about deep 
 and the prospect of sitting down and writing activation functions for my use cases. Not "ask claude", or "replace
 me with AI while you have no idea what you're talking about".
 
-It is evident thatThe Pandora's Box has been opened. AI is here to stay. How it stays, and how it shapes society,
+It is evident that The Pandora's Box has been opened. AI is here to stay. How it stays, and how it shapes society,
 is up to us. Absolute power corrupts absolutely. And absolute AI enables absolute power. But the knowledge of
 absolute power, leads to absolute caution. And that might save us after all.
 
