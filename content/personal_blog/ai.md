@@ -115,8 +115,8 @@ crush, and get rejected.
 Now I open LinkedIn and see a sea of people peddling courses on "AI native life" and how your descendants
 will curse at your name if you don't beg and grovel to be included in their self-aggrandizing influencer
 programs. I open Instagram and see people with zero philosophical and poitical acumen discussing geopolitics
-with the same authority as someone who's actually read a book. I open X and... I am sorry. My brain short-
-circuited from the sheer amount of absolute horseshit I saw. And the worst part is - you know most of these
+with the same authority as someone who's actually read a book. I open X and... I am sorry. My brain
+short-circuited from the sheer amount of absolute horseshit I saw. And the worst part is - you know most of these
 are bots and LLMs perpetuating the dead internet theory. The ones that are human, have offloaded their
 opinions to one. And even though you know all of this, the engagement is still there. The likes and retweets
 are still there. The comments are still there. And some of them are from actual humans. You end up believing it
@@ -128,10 +128,11 @@ less than stellar intentions. I wonder how much of the article is a hallucinatio
 came from the minds of a human. I know it is not enough. I know that many people don't. The notification for the
 article is from reddit. Reddit reminding me of an article from a newspaper quoting someone from twitter who mis-read
 something from reddit, who in turn has a generic username and no other posts. This post now has 20k upvotes
-and comments from accounts (I didn't use the word people because I could not be sure) who pile on to the comment.
+and comments from accounts (I didn't use the word people because I could not be sure) that pile on to the post.
 
 One of them is a racist, misinformed dogwhistle. I want to argue. I don't have the energy. So I scroll past. Rinse
-and repeat.
+and repeat. That same comment has spawned a few more, like a Hydra's head. It is not worth cutting that head off as
+I am not Hercules nor is this a labor worth doing.
 
 I get a Whatsapp message in one of the million family groups I am in. It is election season in a state none of us
 are in, were in, or are remotely associated with in any way. The message is slop. It is slop meant to elicit a
@@ -165,7 +166,7 @@ intro eight years ago, I mentioned my interest in AI. For me, it was about deep 
 and the prospect of sitting down and writing activation functions for my use cases. Not "ask claude", or "replace
 me with AI while you have no idea what you're talking about".
 
-All I know is that The Pandora's Box has been opened. AI is here to stay. How it stays, and how it shapes society,
+It is evident thatThe Pandora's Box has been opened. AI is here to stay. How it stays, and how it shapes society,
 is up to us. Absolute power corrupts absolutely. And absolute AI enables absolute power. But the knowledge of
 absolute power, leads to absolute caution. And that might save us after all.
 
@@ -177,6 +178,6 @@ Is it Arasaka, Militech, or us? Does order stem from chaos, as happens when ever
 control, as happens when only a select few have it? Whom would you trust with such power? Would the person you are
 trusting with the power trust their spiritual clone with the same power?
 
-All I know is, we are woefully unequipped for a second brain. Using it to play Civilization is a good start. Unleashing
+We are woefully unequipped for a second brain. Using it to play Civilization is a good start. Unleashing
 it upon civilization as it stands right now, however, might not be.
 
