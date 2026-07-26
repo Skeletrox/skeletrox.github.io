@@ -7,7 +7,7 @@ title = 'Portfolio'
 
 ## About
 
-* Software Development Engineer II, AWS Redshift
+* Software Engineer III - Google AlloyDB
 * Master of Science in Computer Science, University of Southern California - 2021
 
 ## Domain
@@ -20,8 +20,12 @@ title = 'Portfolio'
 
 ## Experience
 
+* Software Engineer III - Google AlloyDB
+    * July 2026 - Present
+    * [AlloyDB Kernel Team](https://cloud.google.com/alloydb/docs/)
+
 * Software Development Engineer II - AWS Redshift
-    * Dec 2023 - Present
+    * Dec 2023 - July 2026
     * [Aurora PostgreSQL - AWS Redshift Zero-ETL](https://aws.amazon.com/blogs/database/amazon-aurora-postgresql-zero-etl-integration-with-amazon-redshift-is-generally-available/)
     * [Alter Sortkeys for Zero-ETL Tables](https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-redshift-altering-sort-keys-tables-zero-etl-integration/)
     * Python2 - Python3 Migration
